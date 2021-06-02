@@ -4,17 +4,15 @@ import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-import './TopNav.css'
-
 const TopNav = () => {
     return (
-        <Navbar fixed="top" id="top-nav">
-            <Navbar.Brand href="/">Sally Poon.</Navbar.Brand>
+        <Navbar collapseOnSelect fixed="top" id="top-nav">
+            <Navbar.Brand href="/">Sally Poon</Navbar.Brand>
         
-        <Nav id="top-nav-right">
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="playground">Playground</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
+        <Nav className="ml-auto">
+            <Nav.Link href="projects" className="mr-3">Projects</Nav.Link>
+            <Nav.Link href="playground" className="mr-3">Playground</Nav.Link>
+            <Nav.Link href="about" className="mr-3">About</Nav.Link>
         </Nav>
         </Navbar>
     )
