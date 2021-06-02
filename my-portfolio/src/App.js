@@ -1,18 +1,31 @@
+// ====================================
+//              IMPORT
+// ====================================
+
+// React
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+// Styling
 import './App.css';
 
+// Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Components
 import TopNav from "./components/Layout/TopNav";
 import BottomNav from './components/Layout/BottomNav';
 
+// Page Containers
 import HomePage from './containers/Home/HomePage';
 import ProjectsPage from './containers/Projects/ProjectsPage';
 import PlaygroundPage from './containers/Playground/PlaygroundPage';
 import AboutPage from './containers/AboutMe/AboutMe';
+
+
+// ====================================
+//            APP COMPONENT
+// ====================================
 
 
 function App() {

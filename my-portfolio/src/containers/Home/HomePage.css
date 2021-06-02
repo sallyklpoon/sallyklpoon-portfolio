@@ -1,0 +1,27 @@
+#homepage-bg {
+    height: 100vh;
+    padding: 4rem 0rem;
+    background-color: #c7f9cc;
+}
+
+.homepage-typography {
+    font-size: 8rem;
+}
+
+#homepage-portrait {
+    margin: auto 0rem;
+    background-image: url('../../config/assets/images/me.png');
+
+    width: 33vw;
+    height: auto;
+    z-index: -100;
+    object-fit: cover;
+}
+
+@media (max-width: 800px) {
+
+    .homepage-typography {
+        font-size: 6rem;
+    }
+
+}
