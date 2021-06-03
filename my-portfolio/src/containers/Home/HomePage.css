@@ -1,22 +1,56 @@
 #homepage-bg {
     height: 100vh;
-    padding: 4rem 0rem;
+    padding: 4rem 2rem;
     background-color: #c7f9cc;
+
+    display: flex;
+
 }
 
 .homepage-typography {
+    color: #57cc99;
     font-size: 8rem;
+    display: inline;
+    margin: 0rem;
 }
 
-#homepage-portrait {
-    margin: auto 0rem;
-    background-image: url('../../config/assets/images/me.png');
+#homepage-nav {
 
-    width: 33vw;
-    height: auto;
-    z-index: -100;
-    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 10rem);
+    grid-template-areas: 
+        "fname fname 4"
+        "2 lname lname";
 }
+
+#fname {
+    grid-area: fname;
+}
+
+#lname {
+    grid-area: lname;
+}
+
+#homepage-bg ul {
+    list-style-type: none;
+    display: inline;
+  }
+
+#homepage-bg li {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 5rem;
+  }
+
+#homepage-bg a {
+    color: #38a3a5;
+    text-decoration: none;
+  }
+
+#homepage-bg a:hover {
+    color: #80ed99;
+    text-decoration: line-through;
+  }
 
 @media (max-width: 800px) {
 
