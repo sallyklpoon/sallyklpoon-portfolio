@@ -1,56 +1,162 @@
+.full-viewport {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 180vh;
+    padding: 10rem 2rem;
+}
+
 #homepage-bg {
     height: 100vh;
-    padding: 4rem 2rem;
-    background-color: #c7f9cc;
+    background-color: #DEF7F3;
+    z-index: -50
+}
 
+.homepage-container {
     display: flex;
-
+    margin: 0rem auto;
 }
 
 .homepage-typography {
-    color: #57cc99;
-    font-size: 8rem;
+    color: #FFA69E;
+    font-size: 10rem;
     display: inline;
     margin: 0rem;
+    z-index: 0;
 }
 
-#homepage-nav {
-
+#homepage-name {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 10rem);
-    grid-template-areas: 
-        "fname fname 4"
-        "2 lname lname";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 10rem);
+    grid-template-areas:
+        "s a l-1 l-2 y"
+        "none p o-1 o-2 n";
+    margin-right: 2rem;
 }
 
-#fname {
-    grid-area: fname;
+#s {
+    grid-area: s;
 }
 
-#lname {
-    grid-area: lname;
+#a {
+    grid-area: a;
 }
 
-#homepage-bg ul {
+#l-1 {
+    grid-area: l-1;
+}
+
+#l-2 {
+    grid-area: l-2;
+}
+
+#y {
+    grid-area: y;
+}
+
+
+.two-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-area: "para1 para2";
+    gap: 2rem;
+
+    margin-bottom: 2rem;
+}
+
+#homepage-bg ul,
+#connect ul {
     list-style-type: none;
     display: inline;
-  }
+    padding-left: 0rem;
+}
 
 #homepage-bg li {
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-size: 5rem;
-  }
+}
 
 #homepage-bg a {
-    color: #38a3a5;
+    color: #4C8577;
     text-decoration: none;
-  }
+}
 
 #homepage-bg a:hover {
-    color: #80ed99;
+    color: #FFA69E;
     text-decoration: line-through;
-  }
+}
+
+#about {
+    width: 70rem;
+    flex-direction: column;
+}
+
+#about-bg {
+    z-index: 9;
+    background-color: #4C8577;
+}
+
+#about img {
+    width: 320px;
+    height: 320px;
+    margin: 7rem auto 0rem auto;
+}
+
+#about h1,
+#about p,
+#about li  
+{
+    color: #DEF7F3;
+    margin-bottom: 1rem;
+}
+
+
+
+#about p,
+#about li {
+    font-size: 1.25em;
+}
+
+#portrait {
+    grid-area: portrait;
+}
+
+#about-me-header {
+    grid-area: header;
+}
+
+#connect {
+    height: 100vh;
+    flex-direction: column;
+}
+
+#connect h1 {
+    bottom: -10px;
+}
+
+#connect li {
+    margin-bottom: 1.5rem;
+}
+
+#connect-links-container {
+    margin-top: 2rem;
+}
+
+#connect-links-container a {
+    font-size: 1.5rem;
+    color: #4C8577;
+}
+
+#connect-links-container a:hover {
+    color: #FFA69E;
+}
+
+
+#connect-links-container img {
+    margin-right: 0.5rem;
+}
 
 @media (max-width: 800px) {
 
