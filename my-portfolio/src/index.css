@@ -16,3 +16,7 @@ code {
     monospace;
 }
 
+
+#container {
+  padding: 4.5rem 2rem;
+}

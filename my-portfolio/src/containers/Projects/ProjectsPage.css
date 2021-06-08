@@ -1,0 +1,36 @@
+@keyframes fadeIn{
+    0%{
+      opacity: 0;
+      margin-top: -1rem;
+    }
+    100%{
+      opacity: 1;
+      margin-top: 0rem;
+    }
+}
+
+#projects-typography {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 3s ease;
+
+    font-size: 6rem;
+    color: #F8CA84;
+}
+
+section {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
+
+.project-image {
+    opacity: 1;
+    display: block;
+    width: 20rem;
+}

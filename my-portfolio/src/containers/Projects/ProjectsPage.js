@@ -4,6 +4,9 @@ import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+// Styling
+import './ProjectsPage.css';
+
 const ProjectsPage = () => {
 
     const [offsetY, setOffsetY] = useState(0);
@@ -16,19 +19,35 @@ const ProjectsPage = () => {
     }, [])
 
     return (
-        <>
-        <div id="projects-typography">
-            <span id="pr-p" className="pr-typography" style={{transform: `translateY(${offsetY * 0.15}px)`}}>P</span>
-            <span id="pr-r" className="pr-typography" style={{transform: `translateY(${offsetY * 0.15}px)`}}>R</span>
-            <span id="pr-o" className="pr-typography" style={{transform: `translateY(${offsetY * 0.15}px)`}}>O</span>
-            <span id="pr-j" className="pr-typography" style={{transform: `translateY(${offsetY * 0.15}px)`}}>J</span>
-            <span id="pr-e" className="pr-typography" style={{transform: `translateY(${offsetY * 0.15}px)`}}>E</span>
-            <span id="pr-c" className="pr-typography" style={{transform: `translateY(${offsetY * 0.15}px)`}}>C</span>
-            <span id="pr-t" className="pr-typography" style={{transform: `translateY(${offsetY * 0.15}px)`}}>T</span>
-            <span id="pr-s" className="pr-typography" style={{transform: `translateY(${offsetY * 0.15}px)`}}>S</span>
-        </div>
+        <div id="container">
+            <div id="projects-typography">
+                Projects
+            </div>
+
+            <section>
+                <div className="project-container">
+                    <img src="https://i.imgur.com/Ejn9qV0.jpg" alt="" className="project-image"/>
+                    <div class="project-overlay">
+                        <div class="project-text">Hello World</div>
+                    </div>
+                </div>
+
+                <div className="project-container">
+                    <img src="https://i.imgur.com/Ejn9qV0.jpg" alt="" className="project-image"/>
+                    <div class="project-overlay">
+                        <div class="project-text">Hello World</div>
+                    </div>
+                </div>
+
+                <div className="project-container">
+                    <img src="https://i.imgur.com/Ejn9qV0.jpg" alt="" className="project-image"/>
+                    <div class="project-overlay">
+                        <div class="project-text">Hello World</div>
+                    </div>
+                </div>
+            </section>
         
-        </>
+        </div>
     )
 }
 
