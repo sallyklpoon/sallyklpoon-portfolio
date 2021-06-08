@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+
+// AOS
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // Styling
-import 'aos/dist/aos.css';
 import './HomePage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
