@@ -7,6 +7,30 @@
     padding: 10rem 2rem;
 }
 
+@keyframes fadeIn{
+    0%{
+      opacity: 0;
+      margin-top: -1rem;
+    }
+    100%{
+      opacity: 1;
+      margin-top: 0rem;
+    }
+}
+
+@keyframes fadeUp{
+    0%{
+      opacity: 0;
+      margin-top: 2rem;
+    }
+    100%{
+      opacity: 1;
+      margin-top: 0rem;
+    }
+  }
+
+
+
 #homepage-bg {
     height: 100vh;
     background-color: #F6F6F6;
@@ -34,28 +58,53 @@
     grid-template-rows: repeat(2, 10rem);
     grid-template-areas:
         "s a l-1 l-2 y"
-        "none p o-1 o-2 n";
+        "p o-1 o-2 n none";
     margin-right: 2rem;
 }
 
 #s {
+    animation: fadeIn 1s ease;
     grid-area: s;
 }
 
 #a {
+    animation: fadeIn 1.5s ease;
     grid-area: a;
 }
 
 #l-1 {
+    animation: fadeIn 2s ease;
     grid-area: l-1;
 }
 
 #l-2 {
+    animation: fadeIn 2.5s ease;
     grid-area: l-2;
 }
 
 #y {
+    animation: fadeIn 3s ease;
     grid-area: y;
+}
+
+#p {
+    animation: fadeIn 3s ease;
+    grid-area: p;
+}
+
+#o-1 {
+    animation: fadeIn 3.5s ease;
+    grid-area: o-1;
+}
+
+#o-2 {
+    animation: fadeIn 4s ease;
+    grid-area: o-2;
+}
+
+#n {
+    animation: fadeIn 4.5s ease;
+    grid-area: n;
 }
 
 
@@ -87,6 +136,10 @@
 #homepage-bg a:hover {
     color: #F88C99;
     text-decoration: line-through;
+}
+
+#homepage-nav {
+    animation: fadeUp 5s ease;
 }
 
 #about {

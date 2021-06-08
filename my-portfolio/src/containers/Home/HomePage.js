@@ -105,9 +105,9 @@ const HomePage = () => {
                         <img src={mail} alt=""/><span clasName="connect-link">Email</span></a></li>
                 </ul>
                 <ul>
-                    <li><a href="https://github.com/sallyklpoon" className="ml-2">
+                    <li><a href="https://github.com/sallyklpoon">
                         <img src={github} alt=""/><span clasName="connect-link">Github</span></a></li>
-                    <li><a href={resume} className="ml-2" download>
+                    <li><a href={resume} download>
                         <img src={file} alt=""/><span clasName="connect-link">Resume</span></a></li>
                 </ul>
             </div>
