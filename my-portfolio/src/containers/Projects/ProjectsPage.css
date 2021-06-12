@@ -70,6 +70,7 @@ section {
 
 .project-container {
   position: relative;
+  width: 20rem;
 }
 
 .project-container:hover .project-overlay {
