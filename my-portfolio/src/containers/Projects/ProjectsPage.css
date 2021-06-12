@@ -9,6 +9,13 @@
     }
 }
 
+.center-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #projects-typography {
     height: 60vh;
     display: flex;
@@ -23,14 +30,52 @@
 section {
     width: 70%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
-
 
 
 .project-image {
     opacity: 1;
     display: block;
     width: 20rem;
+}
+
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0000006b;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-text,
+.project-title,
+.view-project {
+  color: #FFFFFF;
+}
+
+.view-project {
+  border: 2px solid #FFFFFF;
+  padding: 0.25rem 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-container {
+  position: relative;
+}
+
+.project-container:hover .project-overlay {
+  opacity: 1;
+}
+
+#project-foot {
+  height: 10rem;
 }

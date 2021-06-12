@@ -3,10 +3,15 @@
         "id": 1,
         "name": "Sprout",
         "date": "May 2021 - Present",
-        "image": "#",
-        "link": "ola-chat"
+        "image_url": "https://i.imgur.com/dkVAVDF.png",
+        "link": "sprout"
     }, 
     {
+        "id": 2,
+        "name": "CapWise",
+        "date": "May 2021 - Present",
+        "image_url": "https://i.imgur.com/dkVAVDF.png",
+        "link": "capwise"
 
     }
 ]
