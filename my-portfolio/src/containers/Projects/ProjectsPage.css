@@ -31,14 +31,14 @@ section {
     width: 70%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 
 .project-image {
     opacity: 1;
     display: block;
-    width: 20rem;
+    width: 15rem;
 }
 
 .project-overlay {
@@ -70,7 +70,7 @@ section {
 
 .project-container {
   position: relative;
-  width: 20rem;
+  width: 15rem;
 }
 
 .project-container:hover .project-overlay {
