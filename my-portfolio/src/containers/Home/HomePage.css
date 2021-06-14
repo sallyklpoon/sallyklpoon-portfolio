@@ -47,6 +47,7 @@
 #id-gif {
     width: auto;
     height: 4.5rem;
+    margin-left: -1.75rem;
 }
 
 .homepage-typography {
@@ -176,7 +177,7 @@
 
 
 #about-bullets {
-    margin-top: -2rem;
+    margin-top: 4rem;
 }
 
 #connect {
