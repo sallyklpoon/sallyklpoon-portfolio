@@ -133,11 +133,12 @@
 
 #homepage-bg a:hover {
     color: #F88C99;
-    text-decoration: line-through;
+    font-weight: bold;
 }
 
 #homepage-nav {
     animation: fadeUp 5s ease;
+    width: 13rem;
 }
 
 #about {
@@ -173,10 +174,6 @@
     margin: 7rem 1rem 0rem auto;
 }
 
-#about-me-header {
-
-
-}
 
 #about-bullets {
     margin-top: -2rem;
@@ -221,3 +218,27 @@
     }
 
 }
+
+
+/* Animation code from https://paulund.co.uk/css-animation-link-underline */
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f8ca84;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }

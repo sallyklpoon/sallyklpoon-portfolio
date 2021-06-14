@@ -51,9 +51,9 @@ const HomePage = () => {
                 </div>
 
                 <ul id="homepage-nav" style={{transform: `translateY(${offsetY * 0.3}px)`}} >
-                        <li><h1 className="display-3"><a href="/projects">Projects</a></h1></li>
-                        <li><h1 className="display-3"><a href="/playground">Playground</a></h1></li>
-                        <li><h1 className="display-3"><a href="/#about">About</a></h1></li>
+                        <li><h1 className="display-3"><a href="/projects" className="left">Projects</a></h1></li>
+                        <li><h1 className="display-3"><a href="/playground" className="left">Playground</a></h1></li>
+                        <li><h1 className="display-3"><a href="/#about" className="left">About</a></h1></li>
                 </ul>
 
             </div>
