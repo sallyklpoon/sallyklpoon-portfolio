@@ -1,3 +1,22 @@
+:root {
+    --white: #F6F6F6;
+    --accent: #00F9FF;
+    --light: #B537F2;
+    --solid: #8A2BE3;
+    --dark: #120052;
+}
+
+
+.accented-text {
+    text-shadow: -10px 10px var(--accent);
+    color: var(--light);
+}
+
+#homepage-full-bg {
+    background-image: url('../../config/assets/images/paper-3.png');
+    background-color: var(--white);
+}
+
 .full-viewport {
     display: flex;
     align-items: center;
@@ -32,8 +51,9 @@
 
 
 #homepage-bg {
+    background-image: url('../../config/assets/images/paper-3.png');
+    background-color: var(--white);
     height: 100vh;
-    background-color: #F6F6F6;
     z-index: -5;
 }
 
@@ -44,14 +64,7 @@
 
 }
 
-#id-gif {
-    width: auto;
-    height: 4.5rem;
-    margin-left: -1.75rem;
-}
-
 .homepage-typography {
-    color: #F88C99;
     font-size: 10rem;
     display: inline;
     margin: 0rem;
@@ -128,12 +141,13 @@
 }
 
 #homepage-bg a {
-    color: #056A4C;
+    color: var(--dark);
     text-decoration: none;
+    opacity: 0.6;
 }
 
 #homepage-bg a:hover {
-    color: #F88C99;
+    opacity: 1;
     font-weight: bold;
 }
 
@@ -142,12 +156,16 @@
     width: 13rem;
 }
 
+/* ABOUT PAGE */
+
 #about {
     width: 70rem;    
 }
 
 #about-bg {
-    background-color: #056A4C;
+    -webkit-clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 14%, 100% 0, 100% 86%, 0% 100%);
+    background-color: var(--solid);
 }
 
 #about-text {
@@ -158,7 +176,7 @@
 #about p,
 #about li  
 {
-    color: #DEF7F3;
+    color: var(--white);
     margin-bottom: 1rem;
 }
 
@@ -166,6 +184,13 @@
 #about li {
     font-size: 1.5rem;
 }
+
+#id-gif {
+    width: auto;
+    height: 4.5rem;
+    margin-left: -0.5rem;
+}
+
 
 
 #portrait {
@@ -177,11 +202,86 @@
 
 
 #about-bullets {
-    margin-top: 4rem;
+    margin: 4rem auto;
+
 }
 
+
+/* PROJECTS DIV */
+
+#projects-head-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.proj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects-head {
+    margin-left: auto;
+    margin-bottom: 5rem;
+    opacity: 0.8;
+}
+
+.proj-intro-container {
+    width: 50rem;
+}
+
+.proj-head {
+    color: var(--light);
+    width: 30rem;
+    font-weight: 200 ;
+}
+
+.proj-img {
+    height: 25rem;
+    width: 40rem;
+    margin: 2rem 15rem 2rem 15rem;
+    border: 5px solid var(--light);
+}
+
+.proj-img:hover {
+    border: 5px solid var(--accent);
+}
+
+.proj-para {
+    width: 30%;
+    margin: 3rem 10rem;
+}
+
+.proj-para a {
+    text-decoration: none;
+    color: var(--solid);
+}
+
+.proj-descrip {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin-bottom: 2rem;
+}
+
+.btn-outline-dark {
+    color: var(--solid);
+    border-color: var(--solid) !important;
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--solid);
+}
+
+#sprout-img {
+    background-image: url('../../config/assets/images/sprout_mock.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* LET'S CONNECT DIV */
+
 #connect {
-    background-color: #F6F6F6;
+    background-color: var(--white);
     height: 100vh;
     flex-direction: column;
 }
@@ -200,11 +300,11 @@
 
 #connect-links-container a {
     font-size: 1.5rem;
-    color: #056A4C;
+    color: var(--light);
 }
 
 #connect-links-container a:hover {
-    color: #F88C99;
+    color: var(--accent);
 }
 
 
@@ -234,7 +334,7 @@ a.left:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f8ca84;
+  background-color: var(--accent);
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
