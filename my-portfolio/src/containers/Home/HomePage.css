@@ -34,13 +34,19 @@
 #homepage-bg {
     height: 100vh;
     background-color: #F6F6F6;
-    z-index: -50
+    z-index: -5;
 }
 
 .homepage-container {
     display: flex;
     margin: 0rem auto;
     align-items: center;
+
+}
+
+#id-gif {
+    width: auto;
+    height: 4.5rem;
 }
 
 .homepage-typography {
@@ -48,7 +54,7 @@
     font-size: 10rem;
     display: inline;
     margin: 0rem;
-    z-index: 0;
+
 }
 
 #homepage-name {
@@ -61,6 +67,7 @@
         "p o-1 o-2 n none";
     margin-right: 2rem;
     align-items: center;
+
 }
 
 #s {
@@ -108,16 +115,6 @@
     grid-area: n;
 }
 
-
-.two-column {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-area: "para1 para2";
-    gap: 2rem;
-
-    margin-bottom: 2rem;
-}
-
 #homepage-bg ul,
 #connect ul {
     list-style-type: none;
@@ -144,19 +141,15 @@
 }
 
 #about {
-    width: 70rem;
-    flex-direction: column;
+    width: 70rem;    
 }
 
 #about-bg {
-    z-index: 9;
     background-color: #056A4C;
 }
 
-#about img {
-    width: 320px;
-    height: 320px;
-    margin: 7rem auto 0rem auto;
+#about-text {
+    width: 60%;
 }
 
 #about h1,
@@ -167,19 +160,22 @@
     margin-bottom: 1rem;
 }
 
-
-
 #about p,
 #about li {
-    font-size: 1.25em;
+    font-size: 1.5rem;
 }
+
 
 #portrait {
     grid-area: portrait;
+    width: 320px;
+    height: 320px;
+    margin: 7rem 1rem 0rem auto;
 }
 
 #about-me-header {
-    grid-area: header;
+
+
 }
 
 #about-bullets {

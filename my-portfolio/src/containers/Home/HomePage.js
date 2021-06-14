@@ -15,8 +15,7 @@ import mail from '../../config/assets/icons/mail.svg';
 import github from '../../config/assets/icons/github.svg';
 import file from '../../config/assets/icons/file.svg';
 import resume from '../../config/files/Resume.pdf';
-
-// initialize AOS
+import identity from '../../config/assets/images/type(8).gif';
 
 
 
@@ -64,37 +63,69 @@ const HomePage = () => {
         <div id="about-bg" className="full-viewport">
 
             <div id="about" className="homepage-container">
-                <h1  id="about-me-header" className="display-4" data-aos="fade-down" data-aos-duration="1000">An aspiring developer with a background in Psychological research and design.</h1>
-                <div id="about-text-container" className="two-column" 
-                    style={{transform: `translateY(${offsetY * 0.07}px)`}} 
-                    data-aos="fade-down" data-aos-duration="1000">
-                    <p>Sally is a Vancouver-based aspiring developer with a BA in Psychology, she is currently completing the Computer Systems
-                        Technology program at British Columbia Institute of Technology (BCIT) in the co-op program.                                                                                                                          
-                    </p>
-                    <p>Her career switch into tech is driven by an interest in solving problems and her enjoyment of learning new languages. 
-                        After all, is programming not a combination of these two?
-                    </p>
+
+                <div id="about-text" style={{transform: `translateY(${offsetY * 0.07}px)`}}>
+                    <h1  id="about-me-header" className="display-4" 
+                    data-aos="fade-down" data-aos-duration="1000">Hi, I'm Sally!👋🏻 <br/> 
+                    <img src={identity} alt="" id="id-gif"/> <br/> in Vancouver with a background in Psychological research and design. <br/> <br/>
+                    I am currently a co-op student in the Computer Systems Technology program at BCIT.</h1>
+
+                    <div id="about-bullets" 
+                        style={{transform: `translateY(${offsetY * 0.07}px)`}}
+                        data-aos="fade-down" data-aos-duration="1000">
+                        <ul>
+                            <li>Led and worked in team settings as a <strong>Project Manger</strong>, <strong>front-end developer</strong>, <strong>UX/UI Designer</strong>, and <strong>Back-end developer</strong></li>
+                            <li>Experience in <strong>Agile/Scrum Development</strong> and <strong>Gitflow Workflow</strong></li>
+                        </ul>
+
+                        <ul>
+                            <li>Skills in: Python, Javascript, React.js, MySQL, Firebase, and more</li>
+                            <li>Ability to adapt and succeed under steep learning curves</li>
+                        </ul>
+
+                    </div>
+
                 </div>
+
                 <img src={portrait} alt="" id="portrait" data-aos="fade-up" data-aos-duration="2000"/>
-
-                <div id="about-bullets" className="two-column" 
-                    style={{transform: `translateY(${offsetY * 0.07}px)`}}
-                    data-aos="fade-down" data-aos-duration="1000">
-                    <ul>
-                        <li>Led and worked in team settings as a <strong>Project Manger</strong>, <strong>front-end developer</strong>, <strong>UX/UI Designer</strong>, and <strong>Back-end developer</strong></li>
-                        <li>Experience in <strong>Agile/Scrum Development</strong> and <strong>Gitflow Workflow</strong></li>
-                    </ul>
-
-                    <ul>
-                        <li>Skills in: Python, Javascript, React.js, MySQL, Firebase, and more</li>
-                        <li>Ability to adapt and succeed under steep learning curves</li>
-                    </ul>
-
-                </div>
-
 
             </div>
         </div>
+
+        <div id="about-bg" className="full-viewport">
+
+<div id="about" className="homepage-container">
+    <h1  id="about-me-header" className="display-4" data-aos="fade-down" data-aos-duration="1000">An aspiring developer with a background in Psychological research and design.</h1>
+    <div id="about-text-container" className="two-column" 
+        style={{transform: `translateY(${offsetY * 0.07}px)`}} 
+        data-aos="fade-down" data-aos-duration="1000">
+        <p>Sally is a Vancouver-based aspiring developer with a BA in Psychology, she is currently completing the Computer Systems
+            Technology program at British Columbia Institute of Technology (BCIT) in the co-op program.                                                                                                                          
+        </p>
+        <p>Her career switch into tech is driven by an interest in solving problems and her enjoyment of learning new languages. 
+            After all, is programming not a combination of these two?
+        </p>
+    </div>
+    <img src={portrait} alt="" id="portrait" data-aos="fade-up" data-aos-duration="2000"/>
+
+    <div id="about-bullets" className="two-column" 
+        style={{transform: `translateY(${offsetY * 0.07}px)`}}
+        data-aos="fade-down" data-aos-duration="1000">
+        <ul>
+            <li>Led and worked in team settings as a <strong>Project Manger</strong>, <strong>front-end developer</strong>, <strong>UX/UI Designer</strong>, and <strong>Back-end developer</strong></li>
+            <li>Experience in <strong>Agile/Scrum Development</strong> and <strong>Gitflow Workflow</strong></li>
+        </ul>
+
+        <ul>
+            <li>Skills in: Python, Javascript, React.js, MySQL, Firebase, and more</li>
+            <li>Ability to adapt and succeed under steep learning curves</li>
+        </ul>
+
+    </div>
+
+
+</div>
+</div>
 
         <div id="connect" className="full-viewport">
             <h1 className="display-1" data-aos="fade-down" data-aos-duration="1500">Let's <br/>Connect</h1>
