@@ -3,7 +3,7 @@
 // ====================================
 
 // React
-import React from 'react';
+import React, { useRef } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Styling
@@ -22,6 +22,10 @@ import ProjectsPage from './containers/Projects/ProjectsPage';
 import PlaygroundPage from './containers/Playground/PlaygroundPage';
 import AboutPage from './containers/AboutMe/AboutMe';
 
+// Locomotive Scroll
+
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
+
 
 // ====================================
 //            APP COMPONENT
@@ -29,18 +33,21 @@ import AboutPage from './containers/AboutMe/AboutMe';
 
 
 function App() {
+  const containerRef = useRef(null);
+
   return (
     <>
-    <TopNav/>
-    <Router>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/projects" component={ProjectsPage} />
-        <Route path="/playground" component={PlaygroundPage} />
-        <Route path="/about-sally" component={AboutPage} />
-      </Switch>
-    </Router>
-    <BottomNav/>
+      <TopNav/>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/projects" component={ProjectsPage} />
+          <Route path="/playground" component={PlaygroundPage} />
+          <Route path="/about-sally" component={AboutPage} />
+        </Switch>
+      </Router>
+      <BottomNav/>
+
     </>
   );
 }

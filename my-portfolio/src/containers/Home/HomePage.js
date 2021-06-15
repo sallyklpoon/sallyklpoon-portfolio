@@ -234,7 +234,7 @@ const HomePage = () => {
 
                     <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
                         <Link to="/ola-chat"><div id="ola-img" className="proj-img" 
-                        style={{transform: `scale(${offsetY * 0.0003})`}} /></Link>
+                        style={{transform: `scale(${offsetY * 0.00035})`}} /></Link>
                     </div>
 
                 </div>

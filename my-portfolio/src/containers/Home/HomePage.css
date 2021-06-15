@@ -239,12 +239,12 @@
 }
 
 .proj-img-parent {
-    height: 25rem;
-    width: 40rem;
+    height: 23rem;
+    width: 38rem;
     overflow: hidden;
     margin: 1rem 15rem 2rem 15rem;
 
-    border: 5px solid var(--light);
+    border: 6px solid var(--light);
 }
 
 .proj-img {
@@ -258,7 +258,7 @@
 }
 
 .proj-img-parent:hover {
-    border: 5px solid var(--accent);
+    border: 6px solid var(--accent);
 }
 
 .proj-para {
