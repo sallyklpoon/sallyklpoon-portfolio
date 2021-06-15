@@ -56,7 +56,7 @@ const HomePage = () => {
                 </div>
 
                 <ul id="homepage-nav" style={{transform: `translateY(${offsetY * 0.3}px)`}} >
-                        <li><h1 className="display-3"><a href="/projects" className="left">Projects</a></h1></li>
+                        <li><h1 className="display-3"><a href="/#projects" className="left">Projects</a></h1></li>
                         <li><h1 className="display-3"><a href="/playground" className="left">Playground</a></h1></li>
                         <li><h1 className="display-3"><a href="/#about" className="left">About</a></h1></li>
                 </ul>
@@ -94,7 +94,7 @@ const HomePage = () => {
             </div>
         </div>
 
-        <div id="projects-bg">
+        <div id="projects">
 
             <div id="projects-head-container">
                 <img src={projects_head} alt="projects-head" id="projects-head" 
@@ -102,27 +102,91 @@ const HomePage = () => {
                 />
             </div>
 
-            <div className="proj">
+            <div className="proj"  id="sprout">
 
                 <div className="proj-intro-container" >
                     <h1 className="display-4 proj-head accented-text" 
                         data-aos="fade-right" data-aos-duration="1800"
                         style={{transform: `translateX(${offsetY * 0.07}px)`}}>
-                        Sustainable Gardening and Community Building</h1>
+                        Sustainable Gardening and Community Building
+                    </h1>
 
-                    <Link to="/sprout"><div id="sprout-img" className="proj-img" 
-                    data-aos="fade-right" data-aos-duration="2250" /></Link>
+                    <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350" >
+                        <Link to="/sprout"><div id="sprout-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.00045})`}}
+                        /></Link>
+                    </div>
                 
                 </div>
 
-                <div className="proj-para">
-                    <p className="proj-descrip" data-aos="fade-left" data-aos-duration="1000">
+                <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
+                    style={{transform: `translateY(${offsetY * 0.02}px)`}}>
+                    <p className="proj-descrip" >
                         <a href="/sprout" className="left"><strong>Sprout</strong></a> is a five-week Agile Development Project by 4 first-year CST 
                         students at BCIT built to encourage nurturing our knowledge of sustainable 
                         gardening within a friendly community.
                     </p>
 
-                    <Button variant="outline-dark" size="lg">View Project</Button>
+                    <Button variant="outline-dark" size="lg" href="/sprout">View Project</Button>
+                </div>
+
+            </div>
+
+            <div className="proj" id="capwise">
+
+                <div className="proj-intro-container" >
+
+                    <h1 className="display-4 proj-head accented-text" 
+                        data-aos="fade-right" data-aos-duration="1800"
+                        style={{transform: `translateX(${offsetY * 0.06}px)`}}>
+                        Getting Small Businesses Organized
+                    </h1>
+
+                    <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
+                        <Link to="/capwise"><div id="capwise-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.0004})`}} /></Link>
+                    </div>
+
+                </div>
+
+                <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
+                    style={{transform: `translateY(${offsetY * 0.02}px)`}}>
+                    <p className="proj-descrip" >
+                        <a href="/capwise" className="left"><strong>CapWise</strong></a> offers occupancy 
+                        tracking while making use of the tracking data to offer business insights in marketing and scheduling.
+                    </p>
+
+                    <Button variant="outline-dark" size="lg" href="/capwise">View Project</Button>
+                </div>
+
+            </div>
+
+            <div className="proj" id="namu">
+
+                <div className="proj-intro-container" >
+
+                    <h1 className="display-4 proj-head accented-text" 
+                        data-aos="fade-right" data-aos-duration="1800"
+                        style={{transform: `translateX(${offsetY * 0.05}px)`}}>
+                        Raising Awareness to protect the Earth Ocean Ecosystem
+                    </h1>
+
+                    <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
+                        <Link to="/namu"><div id="capwise-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.0004})`}} /></Link>
+                    </div>
+
+                </div>
+
+                <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
+                    style={{transform: `translateY(${offsetY * 0.02}px)`}}>
+                    <p className="proj-descrip" >
+                        <a href="/namu" className="left"><strong>Namu</strong></a> takes players on a journey with 
+                        our blue whale friend who is searching for their home. During the journey, players will 
+                        learn about environmental issues that affect our oceans.  
+                    </p>
+
+                    <Button variant="outline-dark" size="lg" href="/namu">View Project</Button>
                 </div>
 
             </div>

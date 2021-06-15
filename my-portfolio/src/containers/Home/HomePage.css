@@ -159,13 +159,15 @@
 /* ABOUT PAGE */
 
 #about {
-    width: 70rem;    
+    width: 70rem;
+    margin: 20rem auto;    
 }
 
 #about-bg {
     -webkit-clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 14%, 100% 0, 100% 86%, 0% 100%);
     background-color: var(--solid);
+    height: 220vh;
 }
 
 #about-text {
@@ -191,8 +193,6 @@
     margin-left: -0.5rem;
 }
 
-
-
 #portrait {
     grid-area: portrait;
     width: 320px;
@@ -215,6 +215,7 @@
 }
 
 .proj {
+    margin-top: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,7 +223,6 @@
 
 #projects-head {
     margin-left: auto;
-    margin-bottom: 5rem;
     opacity: 0.8;
 }
 
@@ -236,18 +236,34 @@
     font-weight: 200 ;
 }
 
-.proj-img {
+.proj-img-parent {
     height: 25rem;
     width: 40rem;
-    margin: 2rem 15rem 2rem 15rem;
+    overflow: hidden;
+    margin: -1rem 15rem 2rem 15rem;
+
     border: 5px solid var(--light);
 }
 
-.proj-img:hover {
+.proj-img {
+    height: 100%;
+    width: 100%;
+
+    /* border: 5px solid var(--light); */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proj-img-parent:hover {
     border: 5px solid var(--accent);
 }
 
 .proj-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 30%;
     margin: 3rem 10rem;
 }
@@ -274,8 +290,10 @@
 
 #sprout-img {
     background-image: url('../../config/assets/images/sprout_mock.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+#capwise-img {
+    background-image: url('../../config/assets/images/capwise_thumb.png')
 }
 
 /* LET'S CONNECT DIV */
