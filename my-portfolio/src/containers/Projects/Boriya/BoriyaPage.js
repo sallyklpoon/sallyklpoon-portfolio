@@ -1,14 +1,13 @@
 import React from 'react';
 
-const SproutPage = () => {
+const BoriyaPage = () => {
 
     return (
-
         <div>
-            
+
         </div>
     )
 
 }
 
-export default SproutPage;
+export default BoriyaPage;

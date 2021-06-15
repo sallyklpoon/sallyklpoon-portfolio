@@ -1,14 +1,14 @@
 import React from 'react';
 
-const SproutPage = () => {
+const OlaPage = () => {
 
     return (
-
         <div>
             
         </div>
     )
 
+
 }
 
-export default SproutPage;
+export default OlaPage;

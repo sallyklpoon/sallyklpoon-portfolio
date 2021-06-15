@@ -22,10 +22,6 @@ import ProjectsPage from './containers/Projects/ProjectsPage';
 import PlaygroundPage from './containers/Playground/PlaygroundPage';
 import AboutPage from './containers/AboutMe/AboutMe';
 
-// Locomotive Scroll
-
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
-
 
 // ====================================
 //            APP COMPONENT
@@ -33,7 +29,6 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 
 
 function App() {
-  const containerRef = useRef(null);
 
   return (
     <>
