@@ -309,6 +309,11 @@
     flex-direction: column;
 }
 
+#connect-head {
+    margin-top: 1rem;
+    height: 18rem;
+}
+
 #connect h1 {
     bottom: -10px;
 }
@@ -318,7 +323,7 @@
 }
 
 #connect-links-container {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 #connect-links-container a {
@@ -333,6 +338,14 @@
 
 #connect-links-container img {
     margin-right: 0.5rem;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-area: "para1 para2";
+    gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 800px) {

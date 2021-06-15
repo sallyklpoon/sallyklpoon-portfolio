@@ -18,6 +18,7 @@ import mail from '../../config/assets/icons/mail.svg';
 import github from '../../config/assets/icons/github.svg';
 import file from '../../config/assets/icons/file.svg';
 import resume from '../../config/files/Resume.pdf';
+import instagram from '../../config/assets/icons/instagram.svg';
 import identity from '../../config/assets/images/type(8)_purp.gif';
 import projects_head from '../../config/assets/images/h-projects.png';
 import connect_head from '../../config/assets/images/h-connect.png';
@@ -257,10 +258,9 @@ const HomePage = () => {
 
         <div id="connect" className="full-viewport">
 
-            <div id="connect-head-container">
-                <img src={connect_head} alt="lets-connect"/>
+            <div id="connect-head-container" data-aos="fade-down" data-aos-duration="1500">
+                <img src={connect_head} alt="lets-connect" id="connect-head"/>
             </div>
-            <h1 className="display-1" data-aos="fade-down" data-aos-duration="1500">Let's <br/>Connect</h1>
 
             <div id="connect-links-container" className="two-column"
                 data-aos="fade-down" data-aos-duration="3000">
@@ -269,6 +269,8 @@ const HomePage = () => {
                         <img src={linkedin} alt=""/><span className="connect-link">LinkedIn</span></a></li>
                     <li><a href="mailto:sallyklpoon@gmail.com">
                         <img src={mail} alt=""/><span className="connect-link">Email</span></a></li>
+                    <li><a href="https://www.instagram.com/sallyteaspoon/">
+                        <img src={instagram} alt=""/><span className="connect-link">Instagram</span></a></li>
                 </ul>
                 <ul>
                     <li><a href="https://github.com/sallyklpoon">
