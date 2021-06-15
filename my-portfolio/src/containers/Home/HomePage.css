@@ -68,7 +68,6 @@
     font-size: 10rem;
     display: inline;
     margin: 0rem;
-
 }
 
 #homepage-name {
@@ -81,6 +80,7 @@
         "p o-1 o-2 n none";
     margin-right: 2rem;
     align-items: center;
+    gap: 1.5rem;
 
 }
 
@@ -233,14 +233,16 @@
 .proj-head {
     color: var(--light);
     width: 30rem;
-    font-weight: 200 ;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-shadow: -4px 3px var(--accent);
 }
 
 .proj-img-parent {
     height: 25rem;
     width: 40rem;
     overflow: hidden;
-    margin: -1rem 15rem 2rem 15rem;
+    margin: 1rem 15rem 2rem 15rem;
 
     border: 5px solid var(--light);
 }
@@ -249,10 +251,10 @@
     height: 100%;
     width: 100%;
 
-    /* border: 5px solid var(--light); */
-
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .proj-img-parent:hover {
@@ -269,6 +271,7 @@
 }
 
 .proj-para a {
+    height: 100%;
     text-decoration: none;
     color: var(--solid);
 }
@@ -288,12 +291,14 @@
     background-color: var(--solid);
 }
 
-#sprout-img {
-    background-image: url('../../config/assets/images/sprout_mock.png');
-}
+#sprout-img { background-image: url('../../config/assets/images/sprout_mock.png');}
+#capwise-img { background-image: url('../../config/assets/images/capwise_thumb.png'); }
+#namu-img { background-image: url('../../config/assets/images/namu_thumb.png'); }
+#boriya-img { background-image: url('../../config/assets/images/boriya_thumb.png'); }
+#ola-img { background-image: url('../../config/assets/images/ola_thumb_zoom.png'); }
 
-#capwise-img {
-    background-image: url('../../config/assets/images/capwise_thumb.png')
+#projects-end {
+    height: 15rem;
 }
 
 /* LET'S CONNECT DIV */

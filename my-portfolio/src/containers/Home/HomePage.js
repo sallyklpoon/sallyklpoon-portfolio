@@ -20,6 +20,7 @@ import file from '../../config/assets/icons/file.svg';
 import resume from '../../config/files/Resume.pdf';
 import identity from '../../config/assets/images/type(8)_purp.gif';
 import projects_head from '../../config/assets/images/h-projects.png';
+import connect_head from '../../config/assets/images/h-connect.png';
 
 
 
@@ -78,7 +79,7 @@ const HomePage = () => {
                     <div id="about-bullets" 
                         data-aos="fade-down" data-aos-duration="1000">
                         <ul>
-                            <li>Led and worked in team settings as a <strong>Project Manger</strong>, <strong>front-end developer</strong>, <strong>UX/UI Designer</strong>, and <strong>back-end developer</strong></li>
+                            <li>Led and worked in team settings as a <strong>Project Manager</strong>, <strong>Front-end Developer</strong>, <strong>UX/UI Designer</strong>, and <strong>Back-end Developer</strong></li>
                             <li>Experience with <strong>Agile/Scrum Development</strong> and <strong>Gitflow Workflow</strong> using Trello and Miro Boards</li>
                             <li>Skills in: Python, Javascript, React.js, MySQL, Firebase, and more</li>
                             <li>Ability to adapt and succeed under steep learning curves</li>
@@ -172,8 +173,8 @@ const HomePage = () => {
                     </h1>
 
                     <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
-                        <Link to="/namu"><div id="capwise-img" className="proj-img" 
-                        style={{transform: `scale(${offsetY * 0.0004})`}} /></Link>
+                        <Link to="/namu"><div id="namu-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.00028})`}} /></Link>
                     </div>
 
                 </div>
@@ -191,12 +192,74 @@ const HomePage = () => {
 
             </div>
 
+            <div className="proj" id="boriya">
 
+                <div className="proj-intro-container" >
+
+                    <h1 className="display-4 proj-head accented-text" 
+                        data-aos="fade-right" data-aos-duration="1800"
+                        style={{transform: `translateX(${offsetY * 0.05}px)`}}>
+                        Save the forest of Bóriya, a Text-Based Adventure
+                    </h1>
+
+                    <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
+                        <Link to="/boriya"><div id="boriya-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.0003})`}} /></Link>
+                    </div>
+
+                </div>
+
+                <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
+                    style={{transform: `translateY(${offsetY * 0.02}px)`}}>
+                    <p className="proj-descrip" >
+                        A dark blight surrounds the Forest of <a href="/boriya" className="left"><strong>Bóriya</strong></a>. 
+                        Will you be able restore peace in the land? A text-based adventure built with Python 3.  
+                    </p>
+
+                    <Button variant="outline-dark" size="lg" href="/boriya">View Project</Button>
+                </div>
+
+            </div>
+
+            <div className="proj" id="ola">
+
+                <div className="proj-intro-container" >
+
+                    <h1 className="display-4 proj-head accented-text" 
+                        data-aos="fade-right" data-aos-duration="1800"
+                        style={{transform: `translateX(${offsetY * 0.04}px)`}}>
+                        Platform for mental health peer-support
+                    </h1>
+
+                    <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
+                        <Link to="/ola-chat"><div id="ola-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.0003})`}} /></Link>
+                    </div>
+
+                </div>
+
+                <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
+                    style={{transform: `translateY(${offsetY * 0.01}px)`}}>
+                    <p className="proj-descrip" >
+                        <a href="/ola-chat" className="left"><strong>Olà Chat</strong></a> is a front-end interface providing 
+                        an anonymous space for participants to reach out to listeners who they are best able to share their experiences with.  
+                    </p>
+
+                    <Button variant="outline-dark" size="lg" href="/ola-chat">View Project</Button>
+                </div>
+
+            </div>
+
+            <div id="projects-end"></div>
         </div>
 
 
 
         <div id="connect" className="full-viewport">
+
+            <div id="connect-head-container">
+                <img src={connect_head} alt="lets-connect"/>
+            </div>
             <h1 className="display-1" data-aos="fade-down" data-aos-duration="1500">Let's <br/>Connect</h1>
 
             <div id="connect-links-container" className="two-column"
