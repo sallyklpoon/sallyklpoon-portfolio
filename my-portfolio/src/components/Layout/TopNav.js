@@ -8,7 +8,7 @@ const TopNav = () => {
     return (
         <Navbar collapseOnSelect expand="lg" fixed="top" id="top-nav">
             <Navbar.Brand href="/">Sally Poon</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
             <Nav.Link href="/#projects" className="mr-3">Projects</Nav.Link>

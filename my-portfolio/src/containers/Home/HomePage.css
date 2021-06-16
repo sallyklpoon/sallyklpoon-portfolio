@@ -169,7 +169,6 @@
 }
 
 #portrait {
-    grid-area: portrait;
     width: 320px;
     height: 320px;
     margin: 7rem 1rem 0rem auto;
@@ -500,7 +499,7 @@ a.left:hover:before {
 @media (max-width: 480px) {
 
     .display-4 {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     .display-3 {
@@ -534,7 +533,7 @@ a.left:hover:before {
     }
 
     #about-bg {
-        height: 285vh;
+        height: 290vh;
     }
 
     #about-me-header {
@@ -553,8 +552,9 @@ a.left:hover:before {
     #portrait {
         margin-top: 6rem;
         margin-left: 0rem;
-        height: 300px;
-        width: 300px;
+        margin-bottom: 1rem;
+        height: 250px;
+        width: 250px;
     }
 
     #id-gif {
@@ -563,8 +563,8 @@ a.left:hover:before {
     }
 
     #projects-head {
-        width: 47rem;
-        margin-right: -12rem;
+        width: 20rem;
+        margin-right: -10rem;
     }
 
     .proj {
@@ -580,9 +580,9 @@ a.left:hover:before {
     }
 
     .proj-img-parent {
-        width: 20rem;
-        height: 20rem;
-        margin-left: 5rem;
+        width: 18rem;
+        height: 18rem;
+        margin-left: 2.75rem;
     }
 
     .proj-para {
@@ -594,17 +594,22 @@ a.left:hover:before {
 
     .proj-descrip {
         width: 100%;
+        font-size: 1.2rem;
     }
 
     .proj-head {
-        margin-left: 4.75rem;
-        width: 24rem;
+        margin-left: 3rem;
+        width: 60%;
         transform: none !important;
     }
 
     #connect-head {
         margin-top: 1rem;
-        height: 9.5rem;
+        height: 7rem;
+    }
+
+    #connect-links-container a {
+        font-size: 1.2rem;
     }
     
 }
