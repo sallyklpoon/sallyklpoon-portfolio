@@ -16,7 +16,14 @@ code {
     monospace;
 }
 
-
 #container {
   padding: 4.5rem 2rem;
+}
+
+.project-hero {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow:inset 0 -20px 10px #3844282c;
 }

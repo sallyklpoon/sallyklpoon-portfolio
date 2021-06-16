@@ -22,6 +22,9 @@ import ProjectsPage from './containers/Projects/ProjectsPage';
 import PlaygroundPage from './containers/Playground/PlaygroundPage';
 import AboutPage from './containers/AboutMe/AboutMe';
 
+// Project Pages
+import SproutPage from './containers/Projects/Sprout/SproutPage';
+
 
 // ====================================
 //            APP COMPONENT
@@ -39,6 +42,7 @@ function App() {
           <Route path="/projects" component={ProjectsPage} />
           <Route path="/playground" component={PlaygroundPage} />
           <Route path="/about-sally" component={AboutPage} />
+          <Route path="/sprout" component={SproutPage} />
         </Switch>
       </Router>
       <BottomNav/>
