@@ -24,6 +24,10 @@ import AboutPage from './containers/AboutMe/AboutMe';
 
 // Project Pages
 import SproutPage from './containers/Projects/Sprout/SproutPage';
+import CapWisePage from './containers/Projects/CapWise/CapWisePage';
+import NamuPage from './containers/Projects/Namu/NamuPage';
+import BoriyaPage from './containers/Projects/Boriya/BoriyaPage';
+import OlaPage from './containers/Projects/Ola/OlaPage';
 
 
 // ====================================
@@ -43,6 +47,10 @@ function App() {
           <Route path="/playground" component={PlaygroundPage} />
           <Route path="/about-sally" component={AboutPage} />
           <Route path="/sprout" component={SproutPage} />
+          <Route path="/capwise" component={CapWisePage} />
+          <Route path="/namu" component={NamuPage} />
+          <Route path="/boriya" component={BoriyaPage} />
+          <Route path="/ola-chat" component={OlaPage} />
         </Switch>
       </Router>
       <BottomNav/>
