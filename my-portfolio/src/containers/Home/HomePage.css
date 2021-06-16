@@ -84,51 +84,26 @@
 
 }
 
-#s {
-    animation: fadeIn 1s ease;
-    grid-area: s;
-}
+#s {animation: fadeIn 1s ease;
+    grid-area: s;}
+#a {animation: fadeIn 1.5s ease;
+    grid-area: a;}
+#l-1 {animation: fadeIn 2s ease;
+    grid-area: l-1;}
+#l-2 {animation: fadeIn 2.5s ease;
+    grid-area: l-2;}
+#y {animation: fadeIn 3s ease;
+    grid-area: y;}
+#p {animation: fadeIn 3s ease;
+    grid-area: p;}
+#o-1 {animation: fadeIn 3.5s ease;
+    grid-area: o-1;}
+#o-2 {animation: fadeIn 4s ease;
+    grid-area: o-2;}
+#n {animation: fadeIn 4.5s ease;
+    grid-area: n;}
 
-#a {
-    animation: fadeIn 1.5s ease;
-    grid-area: a;
-}
-
-#l-1 {
-    animation: fadeIn 2s ease;
-    grid-area: l-1;
-}
-
-#l-2 {
-    animation: fadeIn 2.5s ease;
-    grid-area: l-2;
-}
-
-#y {
-    animation: fadeIn 3s ease;
-    grid-area: y;
-}
-
-#p {
-    animation: fadeIn 3s ease;
-    grid-area: p;
-}
-
-#o-1 {
-    animation: fadeIn 3.5s ease;
-    grid-area: o-1;
-}
-
-#o-2 {
-    animation: fadeIn 4s ease;
-    grid-area: o-2;
-}
-
-#n {
-    animation: fadeIn 4.5s ease;
-    grid-area: n;
-}
-
+    
 #homepage-bg ul,
 #connect ul {
     list-style-type: none;
@@ -214,6 +189,11 @@
     justify-content: flex-end;
 }
 
+#projects-head {
+    margin-left: auto;
+    opacity: 0.8;
+}
+
 .proj {
     margin-top: 10rem;
     display: flex;
@@ -221,13 +201,8 @@
     justify-content: center;
 }
 
-#projects-head {
-    margin-left: auto;
-    opacity: 0.8;
-}
-
 .proj-intro-container {
-    width: 50rem;
+    width: 48rem;
 }
 
 .proj-head {
@@ -267,7 +242,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     width: 30%;
-    margin: 3rem 10rem;
+    margin: 3rem 7rem;
 }
 
 .proj-para a {
@@ -348,15 +323,6 @@
     margin-bottom: 2rem;
 }
 
-@media (max-width: 800px) {
-
-    .homepage-typography {
-        font-size: 6rem;
-    }
-
-}
-
-
 /* Animation code from https://paulund.co.uk/css-animation-link-underline */
 a.left
 {
@@ -378,4 +344,115 @@ a.left:before {
 a.left:hover:before {
     visibility: visible;
     width: 100%;
-  }
+}
+
+@media (min-width: 880px) and (max-width: 1224px) {
+
+    .homepage-typography {
+        font-size: 9rem;
+    }
+
+    .homepage-container {
+        flex-direction: column;
+    }
+
+    #about-bg {
+        height: 270vh;
+    }
+
+    #about-me-header {
+        font-size: 2.75rem;
+    }
+
+    #portrait {
+        margin-top: 10rem;
+        margin-left: 0rem;
+        height: 300px;
+        width: 300px;
+    }
+
+    #id-gif {
+        height: 3.75rem;
+    }
+
+    #projects-head {
+        width: 47rem;
+        margin-right: -12rem;
+    }
+
+    .proj-intro-container {
+        width: 35rem;
+    }
+
+    .proj-img-parent {
+        width: 28rem;
+        margin-left: 5rem;
+        margin-right: 2rem;
+    }
+
+    .proj-para {
+        margin: 1rem 1rem;
+    }
+
+    .proj-head {
+        margin-left: -10rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 879px) {
+
+    .homepage-typography {
+        font-size: 6rem;
+    }
+
+    #homepage-name {
+        gap: 1rem;
+        
+    }
+
+    .homepage-container {
+        flex-direction: column;
+    }
+
+    #about-bg {
+        height: 270vh;
+    }
+
+    #about-me-header {
+        font-size: 2.75rem;
+    }
+
+    #portrait {
+        margin-top: 10rem;
+        margin-left: 0rem;
+        height: 300px;
+        width: 300px;
+    }
+
+    #id-gif {
+        height: 3.75rem;
+    }
+
+    #projects-head {
+        width: 47rem;
+        margin-right: -12rem;
+    }
+
+    .proj-intro-container {
+        width: 35rem;
+    }
+
+    .proj-img-parent {
+        width: 28rem;
+        margin-left: 5rem;
+        margin-right: 2rem;
+    }
+
+    .proj-para {
+        margin: 1rem 1rem;
+    }
+
+    .proj-head {
+        margin-left: -10rem;
+    }
+}
