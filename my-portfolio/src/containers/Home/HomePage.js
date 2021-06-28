@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // BootStrap
 import Button from 'react-bootstrap/Button';
 
-import portrait from '../../config/assets/images/me.png';
+import portrait from '../../config/assets/images/portrait-1.jpg';
 import linkedin from '../../config/assets/icons/linkedin.svg';
 import mail from '../../config/assets/icons/mail.svg';
 import github from '../../config/assets/icons/github.svg';
