@@ -5,7 +5,6 @@ import Nav from "react-bootstrap/Nav";
 
 import linkedin from '../../config/assets/icons/linkedin.svg';
 import mail from '../../config/assets/icons/mail.svg';
-import instagram from '../../config/assets/icons/instagram.svg';
 import github from '../../config/assets/icons/github.svg';
 
 

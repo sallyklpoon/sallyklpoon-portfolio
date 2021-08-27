@@ -9,9 +9,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // Styling
 import './App.css';
 
-// Bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 // Components
 import TopNav from "./components/Layout/TopNav";
 import BottomNav from './components/Layout/BottomNav';
