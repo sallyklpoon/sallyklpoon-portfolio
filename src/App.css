@@ -55,3 +55,10 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 799px) {
+
+  #top-nav {
+      background-color: transparent;
+    } 
+  }
