@@ -1,6 +1,9 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "engins": {
+    "node": "14.16.0"
+  },
   "private": true,
   "dependencies": {
     "@react-spring/parallax": "^9.2.1",
