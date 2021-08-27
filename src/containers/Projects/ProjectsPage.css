@@ -1,4 +1,11 @@
-@keyframes fadeIn{
+#project-page-container {
+  padding: 1rem 2rem;
+}
+
+
+
+
+/* @keyframes fadeIn{
     0%{
       opacity: 0;
       margin-top: -1rem;
@@ -78,4 +85,4 @@ section {
 
 #project-foot {
   height: 10rem;
-}
+} */

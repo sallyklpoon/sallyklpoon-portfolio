@@ -19,7 +19,7 @@ import github from '../../config/assets/icons/github.svg';
 import file from '../../config/assets/icons/file.svg';
 import resume from '../../config/files/Resume.pdf';
 import instagram from '../../config/assets/icons/instagram.svg';
-import identity from '../../config/assets/images/type(8)_purp.gif';
+import identity from '../../config/assets/images/type(8)_blue.gif';
 import projects_head from '../../config/assets/images/h-projects.png';
 import connect_head from '../../config/assets/images/h-connect.png';
 
@@ -82,7 +82,8 @@ const HomePage = () => {
                         <ul>
                             <li>Led and worked in team settings as a <strong>Project Manager</strong>, <strong>Front-end Developer</strong>, <strong>UX/UI Designer</strong>, and <strong>Back-end Developer</strong></li>
                             <li>Experience with <strong>Agile/Scrum Development</strong> and <strong>Gitflow Workflow</strong> using Trello and Miro Boards</li>
-                            <li>Skills in: Python, Javascript, React.js, MySQL, Firebase, and more</li>
+                            <li>Skills in: Python, Javascript, React.js, SQL, Firebase, and more</li>
+                            <li>Experimented with: Node.js, Axios, Postgres</li>
                             <li>Ability to adapt and succeed under steep learning curves</li>
                             <li>Self-taught <strong>Adobe Photoshop, After Effects, Illustrator, and InDesign</strong> as a creative outlet</li>
                         </ul>
