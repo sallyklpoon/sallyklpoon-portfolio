@@ -3,11 +3,13 @@
 // ====================================
 
 // React
-import React, { useRef } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Styling
 import './App.css';
+
+// Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 import TopNav from "./components/Layout/TopNav";
@@ -50,7 +52,6 @@ function App() {
           <Route path="/ola-chat" component={OlaPage} />
         </Switch>
       </Router>
-      <BottomNav/>
 
     </>
   );
