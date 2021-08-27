@@ -21,25 +21,25 @@ const TopNav = () => {
         // </Navbar>
 
         <Navbar collapseOnSelect expand="lg" fixed="top" id="top-nav">
-  <Container>
-  <Navbar.Brand href="/">Sally Poon</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav>
-      <Nav.Link href="/#about">Who, Me?</Nav.Link>
-      <Nav.Link eventKey={2} href="/#projects">
-        Projects
-      </Nav.Link>
-      <Nav.Link eventKey={3} href="/playground">
-        Play
-      </Nav.Link>
-      <Nav.Link eventKey={4} href="/#connect">
-        Let's Connect
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
-</Navbar>
+        <Container>
+        <Navbar.Brand href="/">Sally Poon</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav>
+            <Nav.Link href="/#about">Who, Me?</Nav.Link>
+            <Nav.Link eventKey={2} href="/#projects">
+                Projects
+            </Nav.Link>
+            <Nav.Link eventKey={3} href="/playground">
+                Play
+            </Nav.Link>
+            <Nav.Link eventKey={4} href="/#connect">
+                Let's Connect
+            </Nav.Link>
+            </Nav>
+        </Navbar.Collapse>
+        </Container>
+        </Navbar>
     )
 }
 

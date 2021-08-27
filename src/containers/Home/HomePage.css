@@ -205,11 +205,11 @@
 }
 
 .proj-head {
-    color: var(--light);
+    color: var(--accent);
     width: 30rem;
 
     font-family: Arial, Helvetica, sans-serif !important;
-    text-shadow: -4px 3px var(--accent);
+    text-shadow: none;
 }
 
 .proj-img-parent {
