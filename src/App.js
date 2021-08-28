@@ -13,7 +13,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 import TopNav from "./components/Layout/TopNav";
-import BottomNav from './components/Layout/BottomNav';
 
 // Page Containers
 import HomePage from './containers/Home/HomePage';

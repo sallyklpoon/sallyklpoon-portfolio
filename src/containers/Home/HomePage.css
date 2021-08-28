@@ -180,6 +180,15 @@
 
 }
 
+.btn-outline-light {
+    margin: 1.5em;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--light);
+    border-color: var(--light);
+}
+
 
 /* PROJECTS DIV */
 
