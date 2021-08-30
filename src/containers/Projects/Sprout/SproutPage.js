@@ -1,11 +1,9 @@
 // React
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // AOS
 import 'aos/dist/aos.css';
-
-// Bootstrap
-import { Figure } from 'react-bootstrap';
 
 // Components
 import ResponsivePlayer from '../../../components/Layout/ResponsivePlayer';
@@ -17,9 +15,9 @@ import '../ProjectsPage.css';
 
 // Assets
 import sproutTechStack from '../../../config/assets/images/sprout/techstack_sprout.png';
-import sproutFrames from '../../../config/assets/images/sprout/frames_sprout.jpg';
-import sproutLogoDesigns from '../../../config/assets/images/sprout/logobrainstorm_sprout.jpg';
-import nextCapwise from '../../../config/assets/images/capwise/next_capwise.png'
+import sproutGoals from '../../../config/assets/images/sprout/sprout_goals.png';
+import nextCapwise from '../../../config/assets/images/capwise/next_capwise.png';
+import sproutLayouts from '../../../config/assets/images/sprout/sprout_layouts.png';
 
 // Data
 import projectsContent from '../../../config/data/projects_data.json';
@@ -36,13 +34,19 @@ const SproutPage = () => {
 
                 <h1 className="display-1">Sprout</h1>
 
-                <p>Sprout is a social gardening application to promote bee-friendly and native-plant gardens across the Greater Vancouver area. 
-                    Using the application, the Sprout team hoped to inspire users to connect with their community and learn more about the ecosystem around them. <br/><br/>
-                    
-                    Plant data was collected with courtesy from Kwantlen’s School of Horticulture.
-                </p>
+                <div className="project-section">
 
-                <ResponsivePlayer video_url="https://youtu.be/5AZUDrRrKr0"/>
+                    <p >
+                        Sprout is a social gardening application to promote bee-friendly and native-plant gardens across the Greater Vancouver area. 
+                        Using the application, the Sprout team hoped to inspire users to connect with their community and learn more about the ecosystem around them. <br/><br/>
+                        
+                        Plant data was collected with courtesy from Kwantlen’s School of Horticulture.
+                    </p>
+
+                    <ResponsivePlayer video_url="https://youtu.be/5AZUDrRrKr0"/>
+
+                </div>
+
 
                 <div className="project-section">
                     <h2 className="display-2">Tech Stack</h2>
@@ -75,31 +79,22 @@ const SproutPage = () => {
                     We combined these two ideas with an element of community because we all learned to emphasize how important community is after 
                     studying online throughout the pandemic.</p>
 
-                    <Figure>
-                        <img className="full-img"
-                            alt=""
-                            src={sproutFrames}
-                        />
-                        <Figure.Caption>
-                            Initial framework designs.
-                        </Figure.Caption>
-                    </Figure>
-
-                    <Figure>
-                        <img className="full-img"
-                            alt=""
-                            src={sproutLogoDesigns}
-                        />
-                        <Figure.Caption>
-                            Sprout logo brainstorm. One of the oddest challenges was finding an app name that wasn't associated with an existing Cannabis-growing company. 
-                        </Figure.Caption>
-                    </Figure>
-
+                    
                     <DoubleAccordion content={projectsContent.sprout}/>
 
+                    <img src={sproutGoals} alt="sprout-goals" className="full-img"/>
+
+
+                    <img src={sproutLayouts} alt="sprout-layouts" className="full-img"/>
+
+                    <hr/>
                 </div>
-            
-                <br/>
+        
+
+                <Link to="/capwise">
+                    <img src={nextCapwise} alt="next-project-capwise" className="full-img"></img>
+                </Link>
+
 
                 
 

@@ -1,7 +1,11 @@
 #project-page-container {
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   /* background-image: url('../../config/assets/images/paper-3.png'); */
   background-color: var(--white);
+}
+
+#project-page-container .display-2 {
+  color: var(--accent)
 }
 
 .project-section {
@@ -17,6 +21,30 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 
+}
+
+.accordion-button {
+  color: var(--solid);
+  font-size: 2rem;
+}
+
+@media (min-width: 1025px) {
+
+  .project-section {
+    width: 65vw
+  }
+
+  #project-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #project-page-container p,
+  #project-page-container li {
+    font-size: 1.25rem;
+  }
+    
 }
 
 /* @keyframes fadeIn{

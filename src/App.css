@@ -17,6 +17,10 @@
   padding: 0em 2em !important;
 }
 
+#project-page-container img {
+  margin: 1.5rem 0rem;
+}
+
 .App {
   text-align: center;
 }
