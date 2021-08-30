@@ -1,6 +1,7 @@
 #project-page-container {
   padding: 1rem 2rem;
-  background: var(--white);
+  /* background-image: url('../../config/assets/images/paper-3.png'); */
+  background-color: var(--white);
 }
 
 .project-section {
