@@ -1,6 +1,10 @@
 // React
 import React from 'react';
 
+// AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 // Components
 import ResponsivePlayer from '../../../components/Layout/ResponsivePlayer';
 
@@ -32,8 +36,39 @@ const SproutPage = () => {
                 <ResponsivePlayer video_url="https://youtu.be/5AZUDrRrKr0"/>
 
                 <div className="project-section">
-
                     <h2 className="display-2">Tech Stack</h2>
+                    <img className="full-img" src={sproutTechStack} alt="techstack-sprout"/>
+
+                    <ul className="columns-2">
+                        <div>
+                            <li>React.js</li>
+                            <li>Javascript</li>
+                            <li>Cloudinary</li>
+                            <li>React-bootstrap</li>
+                        </div>
+                        <div>
+                            <li>Axios</li>
+                            <li>Express</li>
+                            <li>Postgres</li>
+                            <li>Heroku</li>
+                        </div>
+                    </ul>
+                </div>
+
+                <hr/>
+
+                <div className="project-section">
+                    <h2 className="display-2">Reflections</h2>
+
+
+
+                    When my team and I started out, we were thinking of ways to bring technology into sustainable living. 
+                    I’ve always been interested in the cause of protecting bees and Nicholas, our back-end developer, 
+                    was getting into gardening and wanted to learn more about native plants in the Vancouver area. 
+                    We combined these two ideas with an element of community because we all learned to emphasize how important community is after 
+                    studying online throughout the pandemic.
+
+                    
 
                 </div>
 

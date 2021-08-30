@@ -4,10 +4,19 @@
 }
 
 .project-section {
-  margin-top: 3rem;
+  margin: 3rem 0rem;
 }
 
+.full-img {
+  width: 100%;
+}
 
+.columns-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+}
 
 /* @keyframes fadeIn{
     0%{
