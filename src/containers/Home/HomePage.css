@@ -15,6 +15,7 @@
 #homepage-full-bg {
     background-image: url('../../config/assets/images/paper-3.png');
     background-color: var(--white);
+    overflow-y: hidden;
 }
 
 .full-viewport {
@@ -195,6 +196,7 @@
 #projects-head-container {
     display: flex;
     justify-content: flex-end;
+    overflow: hidden;
 }
 
 #projects-head {
@@ -386,6 +388,7 @@ a.left:hover:before {
     #projects-head {
         width: 47rem;
         margin-right: -12rem;
+        overflow-y: hidden;
     }
 
     .proj-intro-container {

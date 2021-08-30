@@ -6,10 +6,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 // Bootstrap
-import Figure from 'react-bootstrap/Figure';
+import { Figure } from 'react-bootstrap';
 
 // Components
 import ResponsivePlayer from '../../../components/Layout/ResponsivePlayer';
+import DoubleAccordion from '../../../components/Layout/DoubleAccordion';
 
 // Styling
 import './SproutPage.css';
@@ -91,7 +92,7 @@ const SproutPage = () => {
                         </Figure.Caption>
                     </Figure>
 
-                    
+                    <DoubleAccordion/>
 
                 </div>
 

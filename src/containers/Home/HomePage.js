@@ -84,10 +84,10 @@ const HomePage = () => {
                             <li>Led and worked in team settings as a <strong>Full-stack Developer</strong> and <strong>Project Manager</strong></li>
                             <li>Ability to adapt and succeed under steep learning curves</li>
                             <li>Self-taught <strong>Adobe Photoshop, After Effects, Illustrator, and InDesign</strong> as a creative outlet</li>
-                            <li>🏆 Awards: Best Application Design (Sprout), Best Project Pitch (Namu), McMath Pride Award, Cultural Leadership Award - Richmond Arts Awards</li>
+                            <li>🏆 Awards: McMath Pride Award, Cultural Leadership Award - Richmond Arts Awards</li>
                         </ul>
 
-                        <Button variant="outline-light" size="lg" href={resume} download>View Resume</Button>
+                        <Button variant="outline-light" href={resume} download>View Resume</Button>
 
                     </div>
 
@@ -131,7 +131,7 @@ const HomePage = () => {
                         gardening within a friendly community. <br/><br/>
 
                         <a href="https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/">
-                            <strong>BCIT | Winner of Best Application Design</strong></a>
+                            <strong>🏆 BCIT Projects II Winner | Best Application Design</strong></a>
                     </p>
 
                     <Button variant="outline-dark" size="lg" href="/sprout">View Project</Button>
@@ -163,7 +163,7 @@ const HomePage = () => {
                         tracking while making use of the tracking data to offer business insights in marketing and scheduling.
                     </p>
 
-                    <Button variant="outline-dark" size="lg" href="/capwise">View Project</Button>
+                    <Button variant="outline-dark" size="lg" href="/capwise" target="_blank">View Project</Button>
                 </div>
 
             </div>
@@ -194,7 +194,7 @@ const HomePage = () => {
 
                         <br/><br/>
 
-                        <a href="https://devpost.com/software/namu"><strong>Hack the Break Winner | Best Project Pitch</strong></a>
+                        <a href="https://devpost.com/software/namu"><strong>🏆 Hack the Break Winner | Best Project Pitch</strong></a>
                     </p>
 
                     <Button variant="outline-dark" size="lg" href="/namu">View Project</Button>
