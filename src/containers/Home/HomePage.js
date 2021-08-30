@@ -163,7 +163,7 @@ const HomePage = () => {
                         tracking while making use of the tracking data to offer business insights in marketing and scheduling.
                     </p>
 
-                    <Button variant="outline-dark" size="lg" href="/capwise" target="_blank">View Project</Button>
+                    <Button variant="outline-dark" size="lg" href="/capwise">View Project</Button>
                 </div>
 
             </div>

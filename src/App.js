@@ -16,7 +16,7 @@ import TopNav from "./components/Layout/TopNav";
 
 // Page Containers
 import HomePage from './containers/Home/HomePage';
-import ProjectsPage from './containers/Projects/ProjectsPage';
+// import ProjectsPage from './containers/Projects/ProjectsPage';
 import PlaygroundPage from './containers/Playground/PlaygroundPage';
 import AboutPage from './containers/AboutMe/AboutMe';
 
@@ -41,7 +41,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/projects" component={ProjectsPage} />
+          {/* <Route path="/projects" component={ProjectsPage} /> */}
           <Route path="/playground" component={PlaygroundPage} />
           <Route path="/about-sally" component={AboutPage} />
           <Route path="/sprout" component={SproutPage} />
