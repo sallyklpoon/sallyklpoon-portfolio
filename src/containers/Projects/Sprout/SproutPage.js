@@ -19,6 +19,10 @@ import '../ProjectsPage.css';
 import sproutTechStack from '../../../config/assets/images/sprout/techstack_sprout.png';
 import sproutFrames from '../../../config/assets/images/sprout/frames_sprout.jpg';
 import sproutLogoDesigns from '../../../config/assets/images/sprout/logobrainstorm_sprout.jpg';
+import nextCapwise from '../../../config/assets/images/capwise/next_capwise.png'
+
+// Data
+import projectsContent from '../../../config/data/projects_data.json';
 
 const SproutPage = () => {
 
@@ -91,9 +95,13 @@ const SproutPage = () => {
                         </Figure.Caption>
                     </Figure>
 
-                    <DoubleAccordion/>
+                    <DoubleAccordion content={projectsContent.sprout}/>
 
                 </div>
+            
+                <br/>
+
+                
 
             </div>
             

@@ -3,14 +3,11 @@ import React from 'react';
 
 /**
  * Returns passed content bulleted
- * @param {*} content - string 
+ * @param {*} bullets - an array of bullet strings 
  * @returns - bulleted content
  */
-const BulletContent = ( {content} ) => {
-    return (
-
-        <li>{content}</li>
-
+const BulletContent = ( {bullets} ) => {
+    return (bullets.map(bullet => <li key={bullet.id}>{bullet.text}</li>)
     )
 };
 

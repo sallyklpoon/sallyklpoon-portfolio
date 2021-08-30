@@ -1,0 +1,61 @@
+{
+    "sprout": {
+        "successes": [{
+                "id": 1,
+                "text": "Completed a full PWA from scratch within 5-weeks."
+            },
+            {
+                "id": 2,
+                "text": "Self-taught and applied new technologies such as React.js, Axios, Heroku, and Postgres/SQL under a condensed timeline."
+            },
+            {
+                "id": 3,
+                "text": "Individually learned to connect front-end to back-end through studying back-end peers' code."
+            },
+            {
+                "id": 4,
+                "text": "Despite the only plant-API that we wanted to use shutting down, we were able to be resourceful and contacted KPU for the use of their Plant Database."
+            },
+            {
+                "id": 5,
+                "text": "A glorious front-end that was awarded Best Design amongst 51 total projects."
+            },
+            {
+                "id": 6,
+                "text": "Learning to create meaningful bonds within a team of strangers!"
+            }
+        ],
+        "potentials": [{
+                "id": 1,
+                "text": "Implement a log-in process that will keep users logged in even after page refresh."
+            },
+            {
+                "id": 2,
+                "text": "Expand on the social aspect of the application with better team engagement, forums, or chat options."
+            },
+            {
+                "id": 3,
+                "text": "Inproving SQL statements to make use of aggregate functions, reducing the front-end processing load."
+            },
+            {
+                "id": 4,
+                "text": "Creating team challenges to engage each community team."
+            }
+        ]
+    },
+
+    "capwise": {
+
+    },
+
+    "namu": {
+
+    },
+    "boriya": {
+
+    },
+    "ola": {
+
+    }
+
+}
