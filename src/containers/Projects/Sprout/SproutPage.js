@@ -1,8 +1,9 @@
 // React
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // AOS
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 // Components
@@ -23,6 +24,15 @@ import sproutLayouts from '../../../config/assets/images/sprout/sprout_layouts.p
 import projectsContent from '../../../config/data/projects_data.json';
 
 const SproutPage = () => {
+
+    const [offsetY, setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset);
+
+    useEffect (() => {
+        window.addEventListener('scroll', handleScroll);
+        AOS.init({});
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [])
 
     return (
 
@@ -50,9 +60,9 @@ const SproutPage = () => {
 
                 <div className="project-section">
                     <h2 className="display-2">Tech Stack</h2>
-                    <img className="full-img" src={sproutTechStack} alt="techstack-sprout"/>
+                    <img className="full-img" src={sproutTechStack} alt="techstack-sprout" data-aos="fade-up" data-aos-/>
 
-                    <ul className="columns-2">
+                    <ul className="columns-2" data-aos="fade-down" data-aos-duration="1000">
                         <div>
                             <li>React.js</li>
                             <li>Javascript</li>

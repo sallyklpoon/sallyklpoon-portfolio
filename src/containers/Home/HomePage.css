@@ -27,6 +27,19 @@
     padding: 10rem 2rem;
 }
 
+.btn-primary {
+    background-color: var(--light);
+    border: var(--light);
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:hover {
+    background-color: var(--accent) !important;
+}
+
 @keyframes fadeIn{
     0%{
       opacity: 0;
@@ -181,6 +194,10 @@
 
 }
 
+#view-resume-btn {
+    margin: 1rem;
+}
+
 .btn-outline-light {
     margin: 1.5em;
 }
@@ -189,6 +206,7 @@
     background-color: var(--light);
     border-color: var(--light);
 }
+
 
 
 /* PROJECTS DIV */
@@ -547,7 +565,7 @@ a.left:hover:before {
     }
 
     #about-bg {
-        height: 290vh;
+        height: 300vh;
     }
 
     #about-me-header {
@@ -626,4 +644,9 @@ a.left:hover:before {
         font-size: 1.2rem;
     }
     
+
+    .btn-outline-light {
+        margin: 1em;
+    }
+
 }
