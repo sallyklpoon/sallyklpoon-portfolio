@@ -5,6 +5,9 @@ import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+// Bootstrap
+import Figure from 'react-bootstrap/Figure';
+
 // Components
 import ResponsivePlayer from '../../../components/Layout/ResponsivePlayer';
 
@@ -14,6 +17,8 @@ import '../ProjectsPage.css';
 
 // Assets
 import sproutTechStack from '../../../config/assets/images/sprout/techstack_sprout.png';
+import sproutFrames from '../../../config/assets/images/sprout/frames_sprout.jpg';
+import sproutLogoDesigns from '../../../config/assets/images/sprout/logobrainstorm_sprout.jpg';
 
 const SproutPage = () => {
 
@@ -60,13 +65,31 @@ const SproutPage = () => {
                 <div className="project-section">
                     <h2 className="display-2">Reflections</h2>
 
-
-
-                    When my team and I started out, we were thinking of ways to bring technology into sustainable living. 
-                    I’ve always been interested in the cause of protecting bees and Nicholas, our back-end developer, 
+                    <p>When my team and I started out, we were thinking of ways to bring technology into sustainable living. 
+                    I’ve been interested in the cause of protecting bees and Nicholas, our back-end developer, 
                     was getting into gardening and wanted to learn more about native plants in the Vancouver area. 
                     We combined these two ideas with an element of community because we all learned to emphasize how important community is after 
-                    studying online throughout the pandemic.
+                    studying online throughout the pandemic.</p>
+
+                    <Figure>
+                        <img className="full-img"
+                            alt=""
+                            src={sproutFrames}
+                        />
+                        <Figure.Caption>
+                            Initial framework designs.
+                        </Figure.Caption>
+                    </Figure>
+
+                    <Figure>
+                        <img className="full-img"
+                            alt=""
+                            src={sproutLogoDesigns}
+                        />
+                        <Figure.Caption>
+                            Sprout logo brainstorm. One of the oddest challenges was finding an app name that wasn't associated with an existing Cannabis-growing company. 
+                        </Figure.Caption>
+                    </Figure>
 
                     
 
