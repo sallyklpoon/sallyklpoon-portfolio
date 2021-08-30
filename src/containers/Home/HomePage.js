@@ -80,14 +80,14 @@ const HomePage = () => {
                     <div id="about-bullets" 
                         data-aos="fade-down" data-aos-duration="1000">
                         <ul>
-                            <li>Skills in: Python, Javascript, React.js, SQL, Firebase, and more</li>
+                            <li>Skills in: Python, Javascript, SQL, React.js, Firebase, and more</li>
                             <li>Led and worked in team settings as a <strong>Full-stack Developer</strong> and <strong>Project Manager</strong></li>
-                            <li>Experimented with: Node.js, Axios, Postgres</li>
                             <li>Ability to adapt and succeed under steep learning curves</li>
                             <li>Self-taught <strong>Adobe Photoshop, After Effects, Illustrator, and InDesign</strong> as a creative outlet</li>
+                            <li>🏆 Awards: Best Application Design (Sprout), Best Project Pitch (Namu), McMath Pride Award, Cultural Leadership Award - Richmond Arts Awards</li>
                         </ul>
 
-                        <Button variant="outline-light" href={resume} download>View Resume</Button>
+                        <Button variant="outline-light" size="lg" href={resume} download>View Resume</Button>
 
                     </div>
 

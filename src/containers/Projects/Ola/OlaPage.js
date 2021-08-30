@@ -1,10 +1,11 @@
 import React from 'react';
+import ComingSoon from '../../../components/Layout/ComingSoon';
 
 const OlaPage = () => {
 
     return (
-        <div>
-            
+        <div id='playground-container'>
+            <ComingSoon/>
         </div>
     )
 
