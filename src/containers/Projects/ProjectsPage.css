@@ -5,7 +5,7 @@
 }
 
 #project-page-container .display-2 {
-  color: var(--accent)
+  color: var(--accent);
 }
 
 .project-section {
@@ -26,6 +26,35 @@
 .accordion-button {
   color: var(--solid);
   font-size: 2rem;
+}
+
+.project-roles {
+  background-color: var(--solid);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  color: var(--white);
+  margin-top: 1rem;
+
+}
+
+
+.project-section hr {
+  margin: 3rem 0rem;
+}
+
+.next-project {
+  margin-top: 4rem;
+}
+
+.project-section a {
+  height: 100%;
+  text-decoration: none;
+  color: var(--solid);
+  font-weight: bold;
+}
+
+.responsive-player-container {
+  margin: 4.5rem 0rem 0rem 0rem;
 }
 
 @media (min-width: 1025px) {

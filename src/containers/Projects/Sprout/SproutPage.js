@@ -43,6 +43,9 @@ const SproutPage = () => {
             <div id="project-page-container">
 
                 <h1 className="display-1">Sprout</h1>
+                <p className="lead project-roles"> 
+                    <strong>My Roles:</strong> Full-stack Developer/Designer, Project Manager, and Product Owner
+                </p>
 
                 <div className="project-section">
 
@@ -50,17 +53,24 @@ const SproutPage = () => {
                         Sprout is a social gardening application to promote bee-friendly and native-plant gardens across the Greater Vancouver area. 
                         Using the application, the Sprout team hoped to inspire users to connect with their community and learn more about the ecosystem around them. <br/><br/>
                         
-                        Plant data was collected with courtesy from Kwantlen’s School of Horticulture.
+                        Plant data collected with courtesy from <a href="https://plantdatabase.kpu.ca/">Kwantlen Polytechnic University's School of Horticulture (2015)</a>. <br/><br/>
+
+                        🏆 Sprout is awarded <a href="https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/">Best Design in BCIT CST program's Projects II</a> for the term of Fall/Winter 2021 out of 51 total projects.
                     </p>
 
-                    <ResponsivePlayer video_url="https://youtu.be/5AZUDrRrKr0"/>
+                    <div className="responsive-player-container">
+                        <ResponsivePlayer video_url="https://youtu.be/5AZUDrRrKr0"/>
+                    </div>
+
 
                 </div>
 
 
                 <div className="project-section">
+
+                    <hr/>
                     <h2 className="display-2">Tech Stack</h2>
-                    <img className="full-img" src={sproutTechStack} alt="techstack-sprout" data-aos="fade-up" data-aos-/>
+                    <img className="full-img" src={sproutTechStack} alt="techstack-sprout" data-aos="fade-up" data-aos-duration="2000"/>
 
                     <ul className="columns-2" data-aos="fade-down" data-aos-duration="1000">
                         <div>
@@ -78,7 +88,6 @@ const SproutPage = () => {
                     </ul>
                 </div>
 
-                <hr/>
 
                 <div className="project-section">
                     <h2 className="display-2">Reflections</h2>
@@ -92,17 +101,17 @@ const SproutPage = () => {
                     
                     <DoubleAccordion content={projectsContent.sprout}/>
 
-                    <img src={sproutGoals} alt="sprout-goals" className="full-img"/>
+                    <img src={sproutGoals} alt="sprout-goals" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
 
 
-                    <img src={sproutLayouts} alt="sprout-layouts" className="full-img"/>
+                    <img src={sproutLayouts} alt="sprout-layouts" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
 
                     <hr/>
                 </div>
         
 
                 <Link to="/capwise">
-                    <img src={nextCapwise} alt="next-project-capwise" className="full-img"></img>
+                    <img src={nextCapwise} alt="next-project-capwise" className="full-img next-project"></img>
                 </Link>
 
 
