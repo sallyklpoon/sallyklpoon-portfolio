@@ -80,10 +80,8 @@ const HomePage = () => {
                     <div id="about-bullets" 
                         data-aos="fade-down" data-aos-duration="1000">
                         <ul>
-                            <li>Led and worked in team settings as a <strong>Project Manager</strong> and <strong>Full-stack Developer</strong></li>
-                            <li>Experience with <strong>Agile/Scrum Development</strong> and <strong>Gitflow Workflow</strong></li>
-                            <li>Productively used Trello, Confluence, and Miro Boards</li>
                             <li>Skills in: Python, Javascript, React.js, SQL, Firebase, and more</li>
+                            <li>Led and worked in team settings as a <strong>Full-stack Developer</strong> and <strong>Project Manager</strong></li>
                             <li>Experimented with: Node.js, Axios, Postgres</li>
                             <li>Ability to adapt and succeed under steep learning curves</li>
                             <li>Self-taught <strong>Adobe Photoshop, After Effects, Illustrator, and InDesign</strong> as a creative outlet</li>
@@ -130,7 +128,10 @@ const HomePage = () => {
                     <p className="proj-descrip" >
                         <a href="/sprout" className="left"><strong>Sprout</strong></a> is a five-week Agile Development Project by 4 first-year CST 
                         students at BCIT built to encourage nurturing our knowledge of sustainable 
-                        gardening within a friendly community.
+                        gardening within a friendly community. <br/><br/>
+
+                        <a href="https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/">
+                            <strong>BCIT | Winner of Best Application Design</strong></a>
                     </p>
 
                     <Button variant="outline-dark" size="lg" href="/sprout">View Project</Button>
@@ -190,6 +191,10 @@ const HomePage = () => {
                         <a href="/namu" className="left"><strong>Namu</strong></a> takes players on a journey with 
                         our blue whale friend who is searching for their home. During the journey, players will 
                         learn about environmental issues that affect our oceans.  
+
+                        <br/><br/>
+
+                        <a href="https://devpost.com/software/namu"><strong>Hack the Break Winner | Best Project Pitch</strong></a>
                     </p>
 
                     <Button variant="outline-dark" size="lg" href="/namu">View Project</Button>

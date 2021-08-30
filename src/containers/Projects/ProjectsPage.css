@@ -1,7 +1,11 @@
 #project-page-container {
   padding: 1rem 2rem;
+  background: var(--white);
 }
 
+.project-section {
+  margin-top: 3rem;
+}
 
 
 
