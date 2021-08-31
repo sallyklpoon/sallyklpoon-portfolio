@@ -14,6 +14,9 @@ import DoubleAccordion from '../../../components/Layout/DoubleAccordion';
 import './SproutPage.css';
 import '../ProjectsPage.css';
 
+// Bootstrap
+import Button from 'react-bootstrap/Button';
+
 // Assets
 import sproutTechStack from '../../../config/assets/images/sprout/techstack_sprout.png';
 import sproutGoals from '../../../config/assets/images/sprout/sprout_goals.png';
@@ -57,6 +60,10 @@ const SproutPage = () => {
 
                         🏆 Sprout is awarded <a href="https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/">Best Design in BCIT CST program's Projects II</a> for the term of Fall/Winter 2021 out of 51 total projects.
                     </p>
+
+                    <div className="project-links-container">
+                        <Button variant="primary" size="lg">See the Project</Button>
+                    </div>
 
                     <div className="responsive-player-container">
                         <ResponsivePlayer video_url="https://youtu.be/5AZUDrRrKr0"/>
