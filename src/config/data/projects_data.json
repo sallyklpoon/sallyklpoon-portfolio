@@ -53,6 +53,42 @@
     },
 
     "capwise": {
+        "successes": [{
+            "id": 1,
+            "text": "Prioritized MVP and leveraged our skill-level to create a simple yet good-looking design."
+        },
+        {
+            "id": 2,
+            "text": "Implemented update, add, and remove calls to Firestore, a NoSQL database."
+        },
+        {
+            "id": 3,
+            "text": "Individually integrated a log-in/log-out and update settings process for users."
+        },
+        {
+            "id": 4,
+            "text": "Designed a completely mobile-first design."
+        },
+        {
+            "id": 5,
+            "text": "Successfully implemented my first alerts page."
+        },
+        {
+            "id": 6,
+            "text": "Managed a team of three efficiently so that we were ahead of our deliverable timeline."
+        }
+
+    ],
+        "potentials": [
+            {
+            "id": 1,
+            "text": "The organization of our NoSQL database can be improved, in specific, for our scheduling and marketing pages."
+        },
+        {
+            "id": 2,
+            "text": "The application can be expanded to allow one user to have access to more than one store location."
+        }
+    ]
 
     },
 

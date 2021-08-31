@@ -35,7 +35,6 @@
 }
 
 .btn-primary:active,
-.btn-primary:visited,
 .btn-primary:hover {
     background-color: var(--accent) !important;
 }

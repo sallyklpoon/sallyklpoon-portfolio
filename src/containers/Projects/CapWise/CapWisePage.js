@@ -18,10 +18,13 @@ import '../ProjectsPage.css';
 import Button from 'react-bootstrap/Button';
 
 // Assets
-import sproutTechStack from '../../../config/assets/images/sprout/techstack_sprout.png';
-import sproutGoals from '../../../config/assets/images/sprout/sprout_goals.png';
-import nextCapwise from '../../../config/assets/images/capwise/next_capwise.png';
-import sproutLayouts from '../../../config/assets/images/sprout/sprout_layouts.png';
+import githubIcon from '../../../config/assets/icons/github.svg';
+import arrowIcon from '../../../config/assets/icons/arrow-right-circle.svg';
+import trelloIcon from '../../../config/assets/icons/columns.svg';
+import capwiseTechStack from '../../../config/assets/images/capwise/techstack_capwise.png';
+import capwiseOutcomes from '../../../config/assets/images/capwise/outcomes_capwise.png';
+import capwiseLayouts from '../../../config/assets/images/capwise/capwise_thumb.png'
+import nextNamu from '../../../config/assets/images/namu/next_namu.png';
 
 // Data
 import projectsContent from '../../../config/data/projects_data.json';
@@ -40,33 +43,36 @@ const CapWisePage = () => {
     return (
         <div>
 
-            <div id="sprout-hero" className="project-hero"></div>
+            <div id="capwise-hero" className="project-hero"></div>
             
             <div id="project-page-container">
 
                 <h1 className="display-1">CapWise</h1>
                 <p className="lead project-roles"> 
-                    <strong>My Roles:</strong> Full-stack Developer/Designer and Project Manager
+                    <strong>My Roles:</strong> Full-stack Developer, Designer and Project Manager
                 </p>
 
                 <div className="project-section">
 
                     <p >
-                        Sprout is a social gardening application to promote bee-friendly and native-plant gardens across the Greater Vancouver area. 
-                        Using the application, the Sprout team hoped to inspire users to connect with their community and learn more about the ecosystem around them. <br/><br/>
+                        CapWise introduces a crowd occupancy counter for retail spaces that will make use of counted data. 
+                        Aside from counting crowd flow, CapWise offers special scheduling and marketing features to make use of in-store counting data. <br/><br/>
                         
-                        Plant data collected with courtesy from <a href="https://plantdatabase.kpu.ca/">Kwantlen Polytechnic University's School of Horticulture (2015)</a>. <br/><br/>
-
-                        🏆 Sprout is awarded <a href="https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/">Best Design in BCIT CST program's Projects II</a> for the term of Fall/Winter 2021 out of 51 total projects.
+                        In this project, I worked on the back and front-end of a count-tracking page, using local storage for log-in, and utilizing Firebase to make update, add, and delete calls to and from a NoSQL database.
+                        Aside from the front-end Counter page, I spent time to work on the Alerts, Settings, and User Authentication process.<br/><br/>
                     </p>
 
                     <div className="project-links-container">
-                        <Button variant="primary" size="lg">See the Project</Button>
-                        <Button variant="primary" size="lg">Sprout Team Trello</Button>
+                        <Button variant="primary" size="lg" href="https://capwise-fac45.web.app/index.html">
+                        <img src={arrowIcon} alt="" className="button-icon"/>See the Project</Button>
+                        <Button variant="primary" size="lg" href='https://github.com/sallyklpoon/CapWise'>
+                        <img src={githubIcon} alt="" className="button-icon"/>GitHub</Button>
+                        <Button variant="primary" size="lg" href='https://trello.com/b/YTQ9Rxxj/1800-capwise'>
+                        <img src={trelloIcon} alt="" className="button-icon"/>Team Trello</Button>
                     </div>
 
                     <div className="responsive-player-container">
-                        <ResponsivePlayer video_url="https://youtu.be/5AZUDrRrKr0"/>
+                        <ResponsivePlayer video_url="https://youtu.be/s-Y8NRgPwH4"/>
                     </div>
 
 
@@ -77,49 +83,48 @@ const CapWisePage = () => {
 
                     <hr/>
                     <h2 className="display-2">Tech Stack</h2>
-                    <img className="full-img" src={sproutTechStack} alt="techstack-sprout" data-aos="fade-up" data-aos-duration="2000"/>
+                    <img className="full-img" src={capwiseTechStack} alt="techstack-capwise" data-aos="fade-up" data-aos-duration="2000"/>
 
                     <ul className="columns-2" data-aos="fade-down" data-aos-duration="1000">
                         <div>
-                            <li>React.js</li>
+                            <li>HTML 5</li>
+                            <li>CSS 3</li>
                             <li>Javascript</li>
-                            <li>Cloudinary</li>
-                            <li>React-bootstrap</li>
                         </div>
                         <div>
-                            <li>Axios</li>
-                            <li>Express</li>
-                            <li>Postgres</li>
-                            <li>Heroku</li>
+                            <li>Firestore</li>
+                            <li>Firebase</li>
                         </div>
                     </ul>
                 </div>
 
 
                 <div className="project-section">
-                    <h2 className="display-2">Reflections</h2>
+                    <h2 className="display-2">Retrospective</h2>
 
-                    <p>When my team and I started out, we were thinking of ways to bring technology into sustainable living. 
-                    I’ve been interested in the cause of protecting bees and Nicholas, our back-end developer, 
-                    was getting into gardening and wanted to learn more about native plants in the Vancouver area. 
-                    We combined these two ideas with an element of community because we all learned to emphasize how important community is after 
-                    studying online throughout the pandemic.</p>
+                    <p>Given a prompt to find pandemic solutions, my peers and I sought to consider the new normal of people counting in businesses. At the start of the pandemic,
+                        businesses were asked to crowd-control their stores. In an age of information and data, my team and I felt that there's a wasted use of this tracked data.
+
+                        Thus, CapWise seeks to use people tracking data to help assist small to medium business owners with their business decisions. <br/><br/>
+
+                        As a very-first full deployed project on the web, there were many interesting challenges and a lot of growth that came out of this project.
+                    </p>
 
                     
-                    <DoubleAccordion content={projectsContent.sprout}/>
+                    <DoubleAccordion content={projectsContent.capwise}/>
 
-                    <img src={sproutGoals} alt="sprout-goals" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
-
-
-                    <img src={sproutLayouts} alt="sprout-layouts" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
+                    <img src={capwiseOutcomes} alt="capwise-outcomes" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
+                    <img src={capwiseLayouts} alt="capwise-layouts" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
 
                     <hr/>
                 </div>
         
 
-                <Link to="/capwise">
-                    <img src={nextCapwise} alt="next-project-capwise" className="full-img next-project"></img>
+                <Link to="/namu">
+                    <img src={nextNamu} alt="next-project-capwise" className="full-img next-project"></img>
                 </Link>
+
+                <div id="project-page-btm_block"></div>
             </div>
 
         </div>

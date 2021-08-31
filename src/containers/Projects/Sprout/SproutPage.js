@@ -64,8 +64,8 @@ const SproutPage = () => {
                     </p>
 
                     <div className="project-links-container">
-                        <Button variant="primary" size="lg">See the Project</Button>
-                        <Button variant="primary" size="lg">Sprout Team Trello</Button>
+                        <Button variant="primary" size="lg" href="https://my-sprout.ca">See the Project</Button>
+                        <Button variant="primary" size="lg" onClick={window.open("https://trello.com/b/BxvUW9V5/dtc-team-03", "_blank")}>Sprout Team Trello</Button>
                     </div>
 
                     <div className="responsive-player-container">
@@ -100,7 +100,7 @@ const SproutPage = () => {
 
 
                 <div className="project-section">
-                    <h2 className="display-2">Reflections</h2>
+                    <h2 className="display-2">Retrospective</h2>
 
                     <p>When my team and I started out, we were thinking of ways to bring technology into sustainable living. 
                     I’ve been interested in the cause of protecting bees and Nicholas, our back-end developer, 
@@ -123,6 +123,8 @@ const SproutPage = () => {
                 <Link to="/capwise">
                     <img src={nextCapwise} alt="next-project-capwise" className="full-img next-project"></img>
                 </Link>
+
+                <div id="project-page-btm_block"></div>
             </div>
 
         </div>
