@@ -40,6 +40,10 @@ const CapWisePage = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, [])
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <div>
 
@@ -47,7 +51,7 @@ const CapWisePage = () => {
             
             <div id="project-page-container">
 
-                <h1 className="display-1">CapWise</h1>
+                <h1 className="display-1" id="top">CapWise</h1>
                 <p className="lead project-roles"> 
                     <strong>My Roles:</strong> Full-stack Developer, Designer and Project Manager
                 </p>
@@ -64,11 +68,11 @@ const CapWisePage = () => {
 
                     <div className="project-links-container">
                         <Button variant="primary" size="lg" href="https://capwise-fac45.web.app/index.html">
-                        <img src={arrowIcon} alt="" className="button-icon"/>See the Project</Button>
+                            <img src={arrowIcon} alt="" className="button-icon"/>See the Project</Button>
                         <Button variant="primary" size="lg" href='https://github.com/sallyklpoon/CapWise'>
-                        <img src={githubIcon} alt="" className="button-icon"/>GitHub</Button>
+                            <img src={githubIcon} alt="" className="button-icon"/>GitHub</Button>
                         <Button variant="primary" size="lg" href='https://trello.com/b/YTQ9Rxxj/1800-capwise'>
-                        <img src={trelloIcon} alt="" className="button-icon"/>Team Trello</Button>
+                            <img src={trelloIcon} alt="" className="button-icon"/>Team Trello</Button>
                     </div>
 
                     <div className="responsive-player-container">

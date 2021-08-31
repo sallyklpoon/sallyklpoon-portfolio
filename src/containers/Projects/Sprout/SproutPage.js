@@ -22,6 +22,8 @@ import sproutTechStack from '../../../config/assets/images/sprout/techstack_spro
 import sproutGoals from '../../../config/assets/images/sprout/sprout_goals.png';
 import nextCapwise from '../../../config/assets/images/capwise/next_capwise.png';
 import sproutLayouts from '../../../config/assets/images/sprout/sprout_layouts.png';
+import arrowIcon from '../../../config/assets/icons/arrow-right-circle.svg';
+import trelloIcon from '../../../config/assets/icons/columns.svg';
 
 // Data
 import projectsContent from '../../../config/data/projects_data.json';
@@ -36,6 +38,12 @@ const SproutPage = () => {
         AOS.init({});
         return () => window.removeEventListener('scroll', handleScroll);
     }, [])
+
+    //**Scroll  */
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
 
@@ -64,8 +72,10 @@ const SproutPage = () => {
                     </p>
 
                     <div className="project-links-container">
-                        <Button variant="primary" size="lg" href="https://my-sprout.ca">See the Project</Button>
-                        <Button variant="primary" size="lg" onClick={window.open("https://trello.com/b/BxvUW9V5/dtc-team-03", "_blank")}>Sprout Team Trello</Button>
+                        <Button variant="primary" size="lg" href="https://my-sprout.ca">
+                            <img src={arrowIcon} alt="" className="button-icon"/>See the Project</Button>
+                        <Button variant="primary" size="lg" href="https://trello.com/b/BxvUW9V5/dtc-team-03">
+                            <img src={trelloIcon} alt="" className="button-icon"/>Sprout Team Trello</Button>
                     </div>
 
                     <div className="responsive-player-container">
