@@ -55,14 +55,17 @@ const SproutPage = () => {
                     <p >
                         Sprout is a social gardening application to promote bee-friendly and native-plant gardens across the Greater Vancouver area. 
                         Using the application, the Sprout team hoped to inspire users to connect with their community and learn more about the ecosystem around them. <br/><br/>
+
+                        As a Full-Stack Developer, some of my most notable contributions to the project includes the implementation of both the back and front-end of a user's sprout profiles (each individual plant's record), plant database search, plant database results, alerts,and leaderboard.
                         
-                        Plant data collected with courtesy from <a href="https://plantdatabase.kpu.ca/">Kwantlen Polytechnic University's School of Horticulture (2015)</a>. <br/><br/>
+                        Plant data collected was provided with courtesy from <a href="https://plantdatabase.kpu.ca/">Kwantlen Polytechnic University's School of Horticulture (2015)</a>. <br/><br/>
 
                         🏆 Sprout is awarded <a href="https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/">Best Design in BCIT CST program's Projects II</a> for the term of Fall/Winter 2021 out of 51 total projects.
                     </p>
 
                     <div className="project-links-container">
                         <Button variant="primary" size="lg">See the Project</Button>
+                        <Button variant="primary" size="lg">Sprout Team Trello</Button>
                     </div>
 
                     <div className="responsive-player-container">
@@ -120,13 +123,7 @@ const SproutPage = () => {
                 <Link to="/capwise">
                     <img src={nextCapwise} alt="next-project-capwise" className="full-img next-project"></img>
                 </Link>
-
-
-                
-
             </div>
-            
-            
 
         </div>
     )
