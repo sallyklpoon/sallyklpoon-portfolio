@@ -20,24 +20,30 @@ import data from '../../config/data/projects_data.json';
 
 const ProjectDetailsPage = () => {
 
-    const [offsetY, setOffsetY] = useState(0);
+    const [, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
-    const htmlIntroPart = data.sprout.description;
+    const htmlIntro = data.sprout.description;
+    const htmlRetrospective = data.sprout.retrospective;
 
     useEffect (() => {
+        window.scrollTo(0, 0)
         window.addEventListener('scroll', handleScroll);
         AOS.init({});
         return () => window.removeEventListener('scroll', handleScroll);
     }, [])
 
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
+    const heroStyle = {
+        backgroundImage: `url(${data.sprout.hero})`,
+        height: '40vh',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        boxShadow:'inset 0 -20px 10px #3844282c'
+    }
 
     return (
-        <div>
-
-            <div id="capwise-hero" className="project-hero"></div>
+        <>
+            <div id="capwise-hero" style={heroStyle}></div>
             
             <div id="project-page-container">
 
@@ -47,10 +53,7 @@ const ProjectDetailsPage = () => {
                 </p>
 
                 <div className="project-section">
-
-                    <p dangerouslySetInnerHTML={ {__html: htmlIntroPart} }>
-                        
-                    </p>
+                    <p dangerouslySetInnerHTML={ {__html: htmlIntro} }/>
 
                     {/**buttons here */}
                     <ProjectLinks   url={data.sprout.url} 
@@ -62,8 +65,6 @@ const ProjectDetailsPage = () => {
                     <div className="responsive-player-container">
                         <ResponsivePlayer video_url={data.sprout.pitch_url}/>
                     </div>
-
-
                 </div>
 
 
@@ -78,8 +79,7 @@ const ProjectDetailsPage = () => {
                             <BulletContent bullets={data.sprout.techstack_c1}/>
                         </div>
                         <div>
-                            <li>Firestore</li>
-                            <li>Firebase</li>
+                            <BulletContent bullets={data.sprout.techstack_c2}/>
                         </div>
                     </ul>
                 </div>
@@ -87,35 +87,24 @@ const ProjectDetailsPage = () => {
 
                 <div className="project-section">
                     <h2 className="display-2">Retrospective</h2>
+                    <p dangerouslySetInnerHTML={ {__html: htmlRetrospective} }/>
 
-                    <p>Given a prompt to find pandemic solutions, my peers and I sought to consider the new normal of people counting in businesses. At the start of the pandemic,
-                        businesses were asked to crowd-control their stores. In an age of information and data, my team and I felt that there's a wasted use of this tracked data.
-
-                        Thus, CapWise seeks to use people tracking data to help assist small to medium business owners with their business decisions. <br/><br/>
-
-                        As a very-first full deployed project on the web, there were many interesting challenges and a lot of growth that came out of this project.
-                    </p>
-
-                    
                     <DoubleAccordion content={data.sprout}/>
 
                     <img src={data.sprout.summary_img} alt="outcomes" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
                     <img src={data.sprout.project_img} alt="layouts" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
-
                     <hr/>
                 </div>
         
 
-                <Link to="/namu">
+                <Link to={data.sprout.nextproj_url}>
                     <img src={data.sprout.nextproj_img} alt="next-project-capwise" className="full-img next-project"></img>
                 </Link>
 
                 <div id="project-page-btm_block"></div>
             </div>
-
-        </div>
+        </>
     )
-
 
 }
 

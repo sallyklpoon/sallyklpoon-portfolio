@@ -1,6 +1,7 @@
 {
     "sprout": {
         "name": "Sprout",
+        "hero": "https://i.imgur.com/w70hbgX.jpg",
         "roles": "Full-stack Developer, Project Manager, Designer, and Product Owner",
         "description": "Sprout is a social gardening application to promote bee-friendly and native-plant gardens across the Greater Vancouver area. Using the application, the Sprout team hoped to inspire users to connect with their community and learn more about the ecosystem around them. <br/><br/>As a Full-Stack Developer, some of my most notable contributions to the project includes the implementation of both the back and front-end of a user's sprout profiles (each individual plant's record), plant database search, plant database results, alerts, and leaderboard. Plant data collected was provided with courtesy from <a href='https://plantdatabase.kpu.ca/'>Kwantlen Polytechnic University's School of Horticulture (2015)</a>. <br/><br/>🏆 Sprout is awarded <a href='https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/'> Best Design in BCIT CST program's Projects II </a> for the term of Fall/Winter 2021 out of 51 total projects.",
         "url": "https://limitless-brushlands-44735.herokuapp.com/",
@@ -14,20 +15,39 @@
                 "id": 1,
                 "text": "React.js"
             },
-            "Javascript",
-            "Cloudinary",
-            "React-Bootstrap"
+            {
+                "id": 2,
+                "text": "Javascript"
+            },
+            {
+                "id": 3,
+                "text": "Cloudinary"
+            },            {
+                "id": 4,
+                "text": "React-Bootstrap"
+            }
         ],
-        "techstack_c2": [
-            "Axios",
-            "Express",
-            "Postgres",
-            "Heroku"
-        ],
+        "techstack_c2": [{
+            "id": 1,
+            "text": "Axios"
+        },
+        {
+            "id": 2,
+            "text": "Express"
+        },
+        {
+            "id": 3,
+            "text": "Postgres"
+        },            {
+            "id": 4,
+            "text": "Heroku"
+        }
+    ],
         "retrospective": "When my team and I started out, we were thinking of ways to bring technology into sustainable living. I’ve been interested in the cause of protecting bees and Nicholas, our back-end developer, was getting into gardening and wanted to learn more about native plants in the Vancouver area. We combined these two ideas with an element of community because we all learned to emphasize how important community is after studying online throughout the pandemic.",
         "summary_img": "https://i.imgur.com/mwpKdRc.png",
         "project_img": "https://i.imgur.com/tEi65rx.png",
         "nextproj_img": "https://i.imgur.com/zRKueLk.png",
+        "nextproj_url": "/capwise",
         "successes": [{
                 "id": 1,
                 "text": "Completed a full PWA from scratch within 5-weeks."
