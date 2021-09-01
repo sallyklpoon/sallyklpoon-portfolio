@@ -9,7 +9,7 @@
         "github": "",
         "trello": "https://trello.com/b/BxvUW9V5/dtc-team-03",
         "devpost": "",
-        "miro": "",
+        "flowchart": "",
         "pitch_url": "https://youtu.be/5AZUDrRrKr0",
         "techstack_img": "https://i.imgur.com/Nd0N5oh.png",
         "techstack_c1": [{
@@ -120,7 +120,7 @@
         "github": "https://github.com/sallyklpoon/CapWise",
         "trello": "https://trello.com/b/YTQ9Rxxj/1800-capwise",
         "devpost": "",
-        "miro": "",
+        "flowchart": "",
         "pitch_url": "https://youtu.be/s-Y8NRgPwH4",
         "techstack_img": "https://i.imgur.com/8hSQ8Sw.png",
         "techstack_c1": [{
@@ -197,13 +197,13 @@
     "namu": {
         "name": "Namu",
         "hero": "https://i.imgur.com/EWQuZ6S.jpg?1",
-        "roles": "Game Developer, Pixel-Graphics Artist, and Content Researcher",
+        "roles": "Game Developer, Pixel-Graphics Artist, Project Manager, and Content Researcher",
         "description": "Featuring in-house made pixel art and 8-bit tunes, this pixel-game takes players on a journey with the baby blue whale, Namu, who is searching for his home. During the journey, players will encounter environmentally-themed trivia that affects planet Earth's richest ecosystem: the Ocean.<br/><br/>As the game developers, we hope that players come out of this game learning more about the importance of Ocean conservation.<br/><br/>My role during this project was managing the tasks that needed to be complete, assisting in pixel-asset creation, and developing different aspects of the game logic including: the scrolling background, obstacle generation and variation, and trivia pop-up overlays.",
         "url": "",
         "github": "https://github.com/DmitriGolota/hack-the-break",
         "trello": "https://trello.com/b/ydR6yNlu/hack-the-break-namu",
         "devpost": "https://devpost.com/software/namu",
-        "miro": "",
+        "flowchart": "",
         "pitch_url": "https://www.youtube.com/watch?v=_5Dp8sM5afI",
         "techstack_img": "",
         "techstack_c1": [{
@@ -264,14 +264,14 @@
         "name": "Bóriya",
         "hero": "https://i.imgur.com/PpDcxa6.png",
         "roles": "Game Developer",
-        "description": "Begin your adventure as a being in the forest of Bóriya. Written using Python 3, this text-based adventure is inspired by Dungeons & Dragons. Players will have to train by battling monsters until they are strong enough to defeat the void that has consumed the forest.<br/><br/>As a developer, this game was designed with a generous amount of documentation, testing, and functions that are Pythonic and atomic.",
+        "description": "Begin your adventure as a being in the forest of Bóriya. This text-based adventure is inspired by Dungeons & Dragons. Players will have to train by battling monsters until they are strong enough to defeat the void that has consumed the forest.<br/><br/>Written using Python 3, this game was designed with a generous amount of documentation, constants, testing, and functions that are Pythonic and atomic.",
         "url": "",
         "github": "https://github.com/sallyklpoon/Boriya-text-based-adventure",
         "trello": "",
         "devpost": "",
-        "miro": "",
+        "flowchart": "https://github.com/sallyklpoon/Boriya-text-based-adventure/blob/main/boriya_game_flowchart.pdf",
         "pitch_url": "",
-        "techstack_img": "",
+        "techstack_img": "https://i.imgur.com/WBYWY4b.png",
         "techstack_c1": [{
                 "id": 1,
                 "text": ""
@@ -288,30 +288,15 @@
                 "text": ""
             }
         ],
-        "techstack_c2": [{
-                "id": 1,
-                "text": ""
-            },
-            {
-                "id": 2,
-                "text": ""
-            },
-            {
-                "id": 3,
-                "text": ""
-            }, {
-                "id": 4,
-                "text": ""
-            }
-        ],
+        "techstack_c2": [],
         "retrospective": "",
         "project_imgs": [{
                 "id": 1,
-                "url": ""
+                "url": "https://i.imgur.com/v74Oqm2.gif"
             },
             {
                 "id": 2,
-                "url": ""
+                "url": "https://i.imgur.com/ZGUfk6m.png"
             }
         ],
         "nextproj_img": "",
@@ -335,7 +320,7 @@
         "github": "",
         "trello": "",
         "devpost": "",
-        "miro": "",
+        "flowchart": "",
         "pitch_url": "",
         "techstack_img": "",
         "techstack_c1": [{
@@ -401,7 +386,7 @@
         "github": "",
         "trello": "",
         "devpost": "",
-        "miro": "",
+        "flowchart": "",
         "pitch_url": "",
         "techstack_img": "",
         "techstack_c1": [{

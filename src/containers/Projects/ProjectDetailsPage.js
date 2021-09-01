@@ -55,7 +55,7 @@ const ProjectDetailsPage = () => {
     return (
         
         <>
-            <div id="capwise-hero" style={heroStyle}></div>
+            <div style={heroStyle}></div>
             
             <div id="project-page-container">
 
@@ -71,7 +71,7 @@ const ProjectDetailsPage = () => {
                                 github={data[projectParam].github} 
                                 trello={data[projectParam].trello} 
                                 devpost={data[projectParam].devpost} 
-                                miro={data[projectParam].miro} />
+                                flowchart={data[projectParam].flowchart} />
 
 
                         {data[projectParam].pitch_url &&
@@ -85,7 +85,7 @@ const ProjectDetailsPage = () => {
                 <div className="project-section">
                     <hr/>
                     <h2 className="display-2">Tech Stack</h2>
-                    <img className="full-img" src={data[projectParam].techstack_img} alt="techstack-capwise" data-aos="fade-up" data-aos-duration="2000"/>
+                    <img className="full-img" src={data[projectParam].techstack_img} alt="techstack" data-aos="fade-up" data-aos-duration="2000"/>
 
                     <ul className="columns-2" data-aos="fade-down" data-aos-duration="1000">
                         <div><BulletContent bullets={data[projectParam].techstack_c1}/></div>
@@ -103,7 +103,7 @@ const ProjectDetailsPage = () => {
                 </div>
         
                 <Link to={data[projectParam].nextproj_url}>
-                    <img src={data[projectParam].nextproj_img} alt="next-project-capwise" className="full-img next-project"></img>
+                    <img src={data[projectParam].nextproj_img} alt="next-project" className="full-img next-project"></img>
                 </Link>
 
                 <div id="project-page-btm_block"></div>

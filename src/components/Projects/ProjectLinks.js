@@ -9,8 +9,9 @@ import githubIcon from '../../config/assets/icons/github.svg';
 import arrowIcon from '../../config/assets/icons/arrow-right-circle.svg';
 import trelloIcon from '../../config/assets/icons/columns.svg';
 import devpostIcon from '../../config/assets/icons/hard-drive.svg';
+import flowchartIcon from '../../config/assets/icons/file.svg';
 
-const ProjectLinks = ( { url, github, trello, devpost, miro } ) => {
+const ProjectLinks = ( { url, github, trello, devpost, flowchart } ) => {
     return (
         <div className="project-links-container">
 
@@ -40,6 +41,14 @@ const ProjectLinks = ( { url, github, trello, devpost, miro } ) => {
                 <Button variant="primary" size="lg" href={devpost}>
                     <img src={devpostIcon} alt="" className="button-icon"/>Devpost
                 </Button>
+            }
+
+            {/*Other Planning Links*/}
+            {flowchart &&
+                <Button variant="primary" size="lg" href={flowchart}>
+                    <img src={flowchartIcon} alt="" className="button-icon"/>Project Flowchart
+                </Button>
+
             }
 
         </div>
