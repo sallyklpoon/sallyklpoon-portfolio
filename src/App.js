@@ -50,7 +50,7 @@ function App() {
           <Route path="/namu" component={NamuPage} />
           <Route path="/boriya" component={BoriyaPage} />
           <Route path="/ola-chat" component={OlaPage} />
-          <Route path="/test/:project_name" component={ProjectDetailsPage}/>
+          <Route path="/project/:project_name" component={ProjectDetailsPage}/>
         </Switch>
       </Router>
 

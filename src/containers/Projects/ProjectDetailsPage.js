@@ -26,8 +26,6 @@ const ProjectDetailsPage = () => {
     let projectParam = useParams().project_name
     const htmlIntro = data[projectParam].description;
     const htmlRetrospective = data[projectParam].retrospective;
-
-    console.log()
     
     const heroStyle = {
         backgroundImage: `url(${data[projectParam].hero})`,
