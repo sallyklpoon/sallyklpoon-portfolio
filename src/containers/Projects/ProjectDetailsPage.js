@@ -29,9 +29,7 @@ import data from '../../config/data/projects_data.json';
 
 const ProjectDetailsPage = () => {
 
-    useEffect (() => {
-        window.scrollTo(0, 0)
-    }, []);
+
 
     const [, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
@@ -49,14 +47,14 @@ const ProjectDetailsPage = () => {
     };
 
     useEffect (() => {
-
         window.addEventListener('scroll', handleScroll);
         AOS.init({});
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-
-
+    useEffect (() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     return (
         

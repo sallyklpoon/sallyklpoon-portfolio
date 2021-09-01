@@ -198,7 +198,7 @@
         "name": "Namu",
         "hero": "https://i.imgur.com/EWQuZ6S.jpg?1",
         "roles": "Game Developer, Pixel-Graphics Artist, Project Manager, and Content Researcher",
-        "description": "Featuring in-house made pixel art and 8-bit tunes, this pixel-game takes players on a journey with the baby blue whale, Namu, who is searching for his home. During the journey, players will encounter environmentally-themed trivia that affects planet Earth's richest ecosystem: the Ocean.<br/><br/>As the game developers, we hope that players come out of this game learning more about the importance of Ocean conservation.<br/><br/>My role during this project was managing the tasks that needed to be complete, assisting in pixel-asset creation, and developing different aspects of the game logic including: the scrolling background, obstacle generation and variation, and trivia pop-up overlays.",
+        "description": "Featuring in-house made pixel art and 8-bit tunes, this pixel-game takes players on a journey with the baby blue whale, Namu, who is searching for his home. During the journey, players will encounter environmentally-themed trivia that affects planet Earth's richest ecosystem: the Ocean.<br/><br/>As the game developers, we hope that players come out of this game learning more about the importance of Ocean conservation.<br/><br/>My role during this project was managing the tasks that needed to be complete, assisting in pixel-asset creation, and developing different aspects of the game logic including: the scrolling background, obstacle generation and variation, and trivia pop-up overlays.<br/><br/>🏆 Namu won the Best Presentation Pitch Award from the Hack the Break 2021 hackathon.",
         "url": "",
         "github": "https://github.com/DmitriGolota/hack-the-break",
         "trello": "https://trello.com/b/ydR6yNlu/hack-the-break-namu",
@@ -232,43 +232,43 @@
             {
                 "id": 3,
                 "url": "https://i.imgur.com/lQo2oQY.png"
-                
+
             }
         ],
         "nextproj_img": "https://i.imgur.com/XizKRiT.png",
         "nextproj_url": "/project/boriya",
         "successes": [{
-            "id": 1,
-            "text": "Without prior knowledge, our team learned and implemented a game using PyGame in 24-hours."
-        },
-        {
-            "id": 2,
-            "text": "There is heart and soul in this project! Building all the pixel art and music by ourselves is something we really pride ourselves on."
-        },
-        {
-            "id": 3,
-            "text": "I learned how to visualize and animate assets using Asperite."
-        }
-    ],
+                "id": 1,
+                "text": "Without prior knowledge, our team learned and implemented a game using PyGame in 24-hours."
+            },
+            {
+                "id": 2,
+                "text": "There is heart and soul in this project! Building all the pixel art and music by ourselves is something we really pride ourselves on."
+            },
+            {
+                "id": 3,
+                "text": "I learned how to visualize and animate assets using Asperite."
+            }
+        ],
         "potentials": [{
-            "id": 1,
-            "text": "Our team developed using a Centralized workflow, which ran us into a few issues during development. In future projects that I would implement in a team, I would use Gitflow Workflow as best practice."
-        },
-        {
-            "id": 2,
-            "text": "Under the time constraint, we were unable to get our object collisions working on the game, so it can be improved!"
-        },
-        {
-            "id": 3,
-            "text": "A possible consideration is to store trivia questions and answers in a database rather than a dictionary added in the code."
-        }
-    ]
+                "id": 1,
+                "text": "Our team developed using a Centralized workflow, which ran us into a few issues during development. In future projects that I would implement in a team, I would use Gitflow Workflow as best practice."
+            },
+            {
+                "id": 2,
+                "text": "Under the time constraint, we were unable to get our object collisions working on the game, so it can be improved!"
+            },
+            {
+                "id": 3,
+                "text": "A possible consideration is to store trivia questions and answers in a database rather than a dictionary added in the code."
+            }
+        ]
     },
     "boriya": {
         "name": "Bóriya",
         "hero": "https://i.imgur.com/PpDcxa6.png",
-        "roles": "Game Developer",
-        "description": "Begin your adventure as a being in the forest of Bóriya. This text-based adventure is inspired by Dungeons & Dragons. Players will have to train by battling monsters until they are strong enough to defeat the void that has consumed the forest.<br/><br/>Written using Python 3, this game was designed with a generous amount of documentation, constants, testing, and functions that are Pythonic and atomic.",
+        "roles": "Game Developer, and Script Testing",
+        "description": "Begin your adventure as a being in the forest of Bóriya. This text-based adventure is inspired by Dungeons & Dragons. Players will have to train by battling monsters until they are strong enough to defeat the void that has consumed the forest.<br/><br/>Written using Python 3, this game was designed with a generous amount of doc-testing, unit-testing, documentation, constants, and functions that are Pythonic and atomic.",
         "url": "",
         "github": "https://github.com/sallyklpoon/Boriya-text-based-adventure",
         "trello": "",
@@ -277,12 +277,11 @@
         "pitch_url": "",
         "techstack_img": "https://i.imgur.com/WBYWY4b.png",
         "techstack_c1": [{
-                "id": 1,
-                "text": "Python 3"
-            }
-        ],
+            "id": 1,
+            "text": "Python 3"
+        }],
         "techstack_c2": [],
-        "retrospective": "",
+        "retrospective": "This text-based game is very reminiscent of D&D. As a Rogue myself, it was really fun to work out the logic behind the game and really consider how to build atomic and Pythonic functions. A lot of the game planning started with the flowchart (you can see an image of it below and the actual PDF link above if you want to actually read it).<br/><br/> Another big part of this exercise was to really get comfortable with writing unit tests. All-in-all, I spent over 24 hours writing 158 unit tests involving many, many patches. It was a challenging time, but I truly learned a lot from the experience!",
         "project_imgs": [{
                 "id": 1,
                 "url": "https://i.imgur.com/v74Oqm2.gif"
@@ -292,82 +291,101 @@
                 "url": "https://i.imgur.com/ZGUfk6m.png"
             }
         ],
-        "nextproj_img": "",
-        "nextproj_url": "/project/namu",
+        "nextproj_img": "https://i.imgur.com/dIfR53V.png",
+        "nextproj_url": "/project/ola-chat",
         "successes": [{
-            "id": 1,
-            "text": ""
-        }],
+                "id": 1,
+                "text": "Writing 158 unit tests independently using patches."
+            }, {
+                "id": 2,
+                "text": "In my humble opinion, many beauitfully atomic functions were written in this program that I am proud of. 💣"
+            }, {
+                "id": 3,
+                "text": "Thorough planning through the use of a flowchart to plan all function logic."
+            }, {
+                "id": 4,
+                "text": "Fun inclusion of ASCII art, colour-coding, and combat statistics. We could have made a simpler game, but we didn't."
+            }],
         "potentials": [{
-            "id": 1,
-            "text": ""
-        }]
+                "id": 1,
+                "text": "We can easily expand on the perks of levelling up in this game and create a more expansive world."
+            }, {
+                "id": 2,
+                "text": "My original plan was to also include a randomizer for objects that a player will encounter if they do not encounter an enemy. They would be able to engage with the object."
+            }, {
+                "id": 3,
+                "text": "Towns, NPCs, and exchange of currency & goods can be added to the game for a more immersive experience."
+            }]
 
     },
     "ola-chat": {
-        "name": "",
-        "hero": "",
-        "roles": "",
-        "description": "",
+        "name": "Olà Chat",
+        "hero": "https://i.imgur.com/QEboKmT.png?1",
+        "roles": "Front-End Developer & Project Manager",
+        "description": "The Olà Chat project is a front-end prototype of what an anonymous peer-support chat app might look like. The project was created with peer support in mind, providing people a space to speak with peers who have similar identities and experiences.<br/><br/>As a front-end developer, I assisted in the creation of the chat interface, landing page, and display-picture selection process.",
         "url": "",
-        "github": "",
+        "github": "https://github.com/sallyklpoon/ola-chat",
         "trello": "",
-        "devpost": "",
+        "devpost": "https://devpost.com/software/ola-chat-app-jzi1f4",
         "flowchart": "",
-        "pitch_url": "",
-        "techstack_img": "",
+        "pitch_url": "https://www.youtube.com/watch?v=WJqd72gtQ7s",
+        "techstack_img": "https://i.imgur.com/Y816Eye.png",
         "techstack_c1": [{
                 "id": 1,
-                "text": ""
+                "text": "HTML 5"
             },
             {
                 "id": 2,
-                "text": ""
+                "text": "CSS 3"
             },
             {
                 "id": 3,
-                "text": ""
-            }, {
-                "id": 4,
-                "text": ""
+                "text": "Javascript"
             }
         ],
-        "techstack_c2": [{
-                "id": 1,
-                "text": ""
-            },
-            {
-                "id": 2,
-                "text": ""
-            },
-            {
-                "id": 3,
-                "text": ""
-            }, {
-                "id": 4,
-                "text": ""
-            }
-        ],
-        "retrospective": "",
+        "techstack_c2": [],
+        "retrospective": "This project was my first hackathon with a bunch of new coders who, including myself, have only been coding for 1 month. The project came from a place of shared advocacy for mental health and from my experience being a Crisis Line volunteer. For this project experience, I learned a lot about front-end UI/UX programming using the little tools and knowledge I've picked up and about consolidating CSS stylsheets for shared components across pages.<br/><br/>Our team had a lot of ideas for this project, but only so much time to complete it. A lot of these features that we would have loved to include are in the Project Potential tab below. In some ways, this was also the first time I had to consider prioritizing and limiting the scope of a project.",
         "project_imgs": [{
                 "id": 1,
-                "url": ""
+                "url": "https://i.imgur.com/vc1D2KK.png"
             },
             {
                 "id": 2,
-                "url": ""
+                "url": "https://i.imgur.com/E95o3qh.jpg"
             }
         ],
-        "nextproj_img": "",
-        "nextproj_url": "/project/namu",
+        "nextproj_img": "https://i.imgur.com/0akdhD8.png",
+        "nextproj_url": "/project/sprout",
         "successes": [{
-            "id": 1,
-            "text": ""
-        }],
+                "id": 1,
+                "text": "First foray in coding full pages using HTML/CSS and Javascript."
+            },{
+                "id": 2,
+                "text": "By shadowing a project peer who is in UI/UX, I learned about how to create shared components across HTML pages."
+            },{
+                "id": 3,
+                "text": "Working under a time constraint for the very first time in a hackathon was challenging, but my take away from it was how to pare down a project scope to complete a project."
+            }],
         "potentials": [{
-            "id": 1,
-            "text": ""
-        }]
+                "id": 1,
+                "text": "The first thing I would change, of course, is to actually implement a database behind the project, likely with a Relational Database."
+            },{
+                "id": 2,
+                "text": "We would like to add tags for listeners to identify themselves in different topic categories."
+            },{
+                "id": 3,
+                "text": "Implementation of forums and after-chat support links."
+            },{
+                "id": 4,
+                "text":"Providing a Crisis flag for Sharers to flag when someone may need more serious support."
+            },{
+                "id": 5,
+                "text": "Security measures to protect users, a way to report inapporpriate users of the application."
+            },{
+                "id": 6,
+                "text": "A log-in process for Listeners."
+            }
+        ]
 
     },
     "template999": {
@@ -425,7 +443,7 @@
             }
         ],
         "nextproj_img": "",
-        "nextproj_url": "/project/namu",
+        "nextproj_url": "/project/sprout",
         "successes": [{
             "id": 1,
             "text": ""
@@ -436,5 +454,5 @@
         }]
 
     }
-    
+
 }
