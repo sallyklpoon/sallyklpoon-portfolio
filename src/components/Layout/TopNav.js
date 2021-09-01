@@ -30,9 +30,9 @@ const TopNav = () => {
             <Nav.Link eventKey={2} href="/#projects">
                 Projects
             </Nav.Link>
-            <Nav.Link eventKey={3} href="/playground" disabled>
+            {/* <Nav.Link eventKey={3} href="/playground" disabled>
                 Play
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link eventKey={4} href="/#connect">
                 Let's Connect
             </Nav.Link>
