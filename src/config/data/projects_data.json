@@ -44,8 +44,16 @@
         }
     ],
         "retrospective": "When my team and I started out, we were thinking of ways to bring technology into sustainable living. I’ve been interested in the cause of protecting bees and Nicholas, our back-end developer, was getting into gardening and wanted to learn more about native plants in the Vancouver area. We combined these two ideas with an element of community because we all learned to emphasize how important community is after studying online throughout the pandemic.",
-        "summary_img": "https://i.imgur.com/mwpKdRc.png",
-        "project_img": "https://i.imgur.com/tEi65rx.png",
+        "project_imgs": [
+            {
+                "id": 1,
+                "url": "https://i.imgur.com/mwpKdRc.png"
+            },
+            {
+                "id": 2,
+                "url": "https://i.imgur.com/tEi65rx.png"
+            }
+        ],
         "nextproj_img": "https://i.imgur.com/zRKueLk.png",
         "nextproj_url": "/capwise",
         "successes": [{

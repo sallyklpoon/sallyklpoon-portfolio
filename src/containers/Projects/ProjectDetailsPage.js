@@ -11,6 +11,7 @@ import ResponsivePlayer from '../../components/Layout/ResponsivePlayer';
 import DoubleAccordion from '../../components/Layout/DoubleAccordion';
 import BulletContent from '../../components/Layout/BulletContent';
 import ProjectLinks from '../../components/Projects/ProjectLinks';
+import ProjectImages from '../../components/Projects/ProjectImages';
 
 // Styling
 import './ProjectsPage.css';
@@ -67,7 +68,6 @@ const ProjectDetailsPage = () => {
                     </div>
                 </div>
 
-
                 <div className="project-section">
 
                     <hr/>
@@ -88,15 +88,11 @@ const ProjectDetailsPage = () => {
                 <div className="project-section">
                     <h2 className="display-2">Retrospective</h2>
                     <p dangerouslySetInnerHTML={ {__html: htmlRetrospective} }/>
-
                     <DoubleAccordion content={data.sprout}/>
-
-                    <img src={data.sprout.summary_img} alt="outcomes" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
-                    <img src={data.sprout.project_img} alt="layouts" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
+                    <ProjectImages images={data.sprout.project_imgs}/>
                     <hr/>
                 </div>
         
-
                 <Link to={data.sprout.nextproj_url}>
                     <img src={data.sprout.nextproj_img} alt="next-project-capwise" className="full-img next-project"></img>
                 </Link>
