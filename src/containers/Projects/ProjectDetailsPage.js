@@ -1,3 +1,7 @@
+// =====================================
+//              IMPORTS
+// =====================================
+
 // React
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
@@ -18,6 +22,10 @@ import './ProjectsPage.css';
 
 // Data
 import data from '../../config/data/projects_data.json';
+
+// =====================================
+//              COMPONENT
+// =====================================
 
 const ProjectDetailsPage = () => {
 
@@ -65,9 +73,13 @@ const ProjectDetailsPage = () => {
                                 devpost={data[projectParam].devpost} 
                                 miro={data[projectParam].miro} />
 
-                    <div className="responsive-player-container">
-                        <ResponsivePlayer video_url={data[projectParam].pitch_url}/>
-                    </div>
+
+                        {data[projectParam].pitch_url &&
+                            <div className="responsive-player-container">
+                                <ResponsivePlayer video_url={data[projectParam].pitch_url}/>
+                             </div>
+                        }
+
                 </div>
 
                 <div className="project-section">

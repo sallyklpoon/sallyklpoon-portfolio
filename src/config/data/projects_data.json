@@ -1,4 +1,5 @@
 {
+
     "sprout": {
         "name": "Sprout",
         "hero": "https://i.imgur.com/w70hbgX.jpg",
@@ -110,7 +111,6 @@
             }
         ]
     },
-
     "capwise": {
         "name": "CapWise",
         "hero": "https://i.imgur.com/7aqb1AQ.jpg",
@@ -194,79 +194,79 @@
         ]
 
     },
-
     "namu": {
-        "name": "",
-        "hero": "",
-        "roles": "",
-        "description": "",
+        "name": "Namu",
+        "hero": "https://i.imgur.com/EWQuZ6S.jpg?1",
+        "roles": "Game Developer, Pixel-Graphics Artist, and Content Researcher",
+        "description": "Featuring in-house made pixel art and 8-bit tunes, this pixel-game takes players on a journey with the baby blue whale, Namu, who is searching for his home. During the journey, players will encounter environmentally-themed trivia that affects planet Earth's richest ecosystem: the Ocean.<br/><br/>As the game developers, we hope that players come out of this game learning more about the importance of Ocean conservation.<br/><br/>My role during this project was managing the tasks that needed to be complete, assisting in pixel-asset creation, and developing different aspects of the game logic including: the scrolling background, obstacle generation and variation, and trivia pop-up overlays.",
         "url": "",
-        "github": "",
-        "trello": "",
-        "devpost": "",
+        "github": "https://github.com/DmitriGolota/hack-the-break",
+        "trello": "https://trello.com/b/ydR6yNlu/hack-the-break-namu",
+        "devpost": "https://devpost.com/software/namu",
         "miro": "",
-        "pitch_url": "",
+        "pitch_url": "https://www.youtube.com/watch?v=_5Dp8sM5afI",
         "techstack_img": "",
         "techstack_c1": [{
                 "id": 1,
-                "text": ""
+                "text": "Python 3"
             },
             {
                 "id": 2,
-                "text": ""
-            },
-            {
-                "id": 3,
-                "text": ""
-            }, {
-                "id": 4,
-                "text": ""
+                "text": "PyGame"
             }
         ],
-        "techstack_c2": [{
-                "id": 1,
-                "text": ""
-            },
-            {
-                "id": 2,
-                "text": ""
-            },
-            {
-                "id": 3,
-                "text": ""
-            }, {
-                "id": 4,
-                "text": ""
-            }
-        ],
-        "retrospective": "",
+        "techstack_c2": [],
+        "retrospective": "The idea for Namu was prompted from a tweet about endangered whales having to contend with up to 1000 boats moving daily through feeding areas. I studied a course on Earth Ocean Ecosystems during my Bachelors and really took away from my course about the importance of Ocean conservation. The Ocean is a vast place and we often take for granted its existence, its importance on the environment we live in, and the variety of life inside it. Ultimately, we hoped that our project can encourage awareness of our environmental actions while pushing the boundaries of what we've learned over our first month and a half programming.",
         "project_imgs": [{
                 "id": 1,
-                "url": ""
+                "url": "https://i.imgur.com/rhRuYTY.gif"
             },
             {
                 "id": 2,
-                "url": ""
+                "url": "https://i.imgur.com/SptEcLO.gif"
+            },
+            {
+                "id": 3,
+                "url": "https://i.imgur.com/lQo2oQY.png"
+                
             }
         ],
-        "nextproj_img": "",
-        "nextproj_url": "/project/namu",
+        "nextproj_img": "https://i.imgur.com/XizKRiT.png",
+        "nextproj_url": "/project/boriya",
         "successes": [{
             "id": 1,
-            "text": ""
-        }],
+            "text": "Without prior knowledge, our team learned and implemented a game using PyGame in 24-hours."
+        },
+        {
+            "id": 2,
+            "text": "There is heart and soul in this project! Building all the pixel art and music by ourselves is something we really pride ourselves on."
+        },
+        {
+            "id": 3,
+            "text": "I learned how to visualize and animate assets using Asperite."
+        }
+    ],
         "potentials": [{
             "id": 1,
-            "text": ""
-        }]
+            "text": "Our team developed using a Centralized workflow, which ran us into a few issues during development. In future projects that I would implement in a team, I would use Gitflow Workflow as best practice."
+        },
+        {
+            "id": 2,
+            "text": "Under the time constraint, we were unable to get our object collisions working on the game, so it can be improved!"
+        },
+        {
+            "id": 3,
+            "text": "A possible consideration is to store trivia questions and answers in a database rather than a dictionary added in the code."
+        }
+    ]
     },
     "boriya": {
-        "name": "",
-        "hero": "",
-        "roles": "",
-        "description": "",
+        "name": "Bóriya",
+        "hero": "https://i.imgur.com/PpDcxa6.png",
+        "roles": "Game Developer",
+        "description": "Begin your adventure as a being in the forest of Bóriya. Written using Python 3, this text-based adventure is inspired by Dungeons & Dragons. Players will have to train by battling monsters until they are strong enough to defeat the void that has consumed the forest.<br/><br/>As a developer, this game was designed with a generous amount of documentation, testing, and functions that are Pythonic and atomic.",
         "url": "",
-        "github": "",
+        "github": "https://github.com/sallyklpoon/Boriya-text-based-adventure",
         "trello": "",
         "devpost": "",
         "miro": "",
@@ -458,5 +458,5 @@
         }]
 
     }
-
+    
 }

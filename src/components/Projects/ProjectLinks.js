@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import githubIcon from '../../config/assets/icons/github.svg';
 import arrowIcon from '../../config/assets/icons/arrow-right-circle.svg';
 import trelloIcon from '../../config/assets/icons/columns.svg';
+import devpostIcon from '../../config/assets/icons/hard-drive.svg';
 
 const ProjectLinks = ( { url, github, trello, devpost, miro } ) => {
     return (
@@ -37,7 +38,7 @@ const ProjectLinks = ( { url, github, trello, devpost, miro } ) => {
             {/*Devpost*/}
             {devpost &&
                 <Button variant="primary" size="lg" href={devpost}>
-                    <img src={trelloIcon} alt="" className="button-icon"/>Devpost
+                    <img src={devpostIcon} alt="" className="button-icon"/>Devpost
                 </Button>
             }
 
