@@ -29,6 +29,10 @@ import data from '../../config/data/projects_data.json';
 
 const ProjectDetailsPage = () => {
 
+    useEffect (() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     const [, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
     let projectParam = useParams().project_name
@@ -42,14 +46,16 @@ const ProjectDetailsPage = () => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         boxShadow:'inset 0 -20px 10px #3844282c'
-    }
+    };
 
     useEffect (() => {
-        window.scrollTo(0, 0)
+
         window.addEventListener('scroll', handleScroll);
         AOS.init({});
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [])
+    }, []);
+
+
 
 
     return (

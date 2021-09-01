@@ -205,7 +205,7 @@
         "devpost": "https://devpost.com/software/namu",
         "flowchart": "",
         "pitch_url": "https://www.youtube.com/watch?v=_5Dp8sM5afI",
-        "techstack_img": "",
+        "techstack_img": "https://i.imgur.com/W2NZnep.png",
         "techstack_c1": [{
                 "id": 1,
                 "text": "Python 3"
@@ -213,6 +213,10 @@
             {
                 "id": 2,
                 "text": "PyGame"
+            },
+            {
+                "id": 3,
+                "text": "Asperite"
             }
         ],
         "techstack_c2": [],
@@ -274,18 +278,7 @@
         "techstack_img": "https://i.imgur.com/WBYWY4b.png",
         "techstack_c1": [{
                 "id": 1,
-                "text": ""
-            },
-            {
-                "id": 2,
-                "text": ""
-            },
-            {
-                "id": 3,
-                "text": ""
-            }, {
-                "id": 4,
-                "text": ""
+                "text": "Python 3"
             }
         ],
         "techstack_c2": [],
