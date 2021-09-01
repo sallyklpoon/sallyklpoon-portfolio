@@ -9,7 +9,7 @@ import React from 'react';
 
 const ProjectImages = ( {images} ) => {
     return (images.map(image => 
-                <img src={image.url} key={image.id} alt="outcomes" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
+                <img src={image.url} key={image.id} alt="project-img" className="full-img"  data-aos="fade-up" data-aos-duration="2000"/>
         )
     )
 };

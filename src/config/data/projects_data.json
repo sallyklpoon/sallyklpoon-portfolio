@@ -22,30 +22,29 @@
             {
                 "id": 3,
                 "text": "Cloudinary"
-            },            {
+            }, {
                 "id": 4,
                 "text": "React-Bootstrap"
             }
         ],
         "techstack_c2": [{
-            "id": 1,
-            "text": "Axios"
-        },
-        {
-            "id": 2,
-            "text": "Express"
-        },
-        {
-            "id": 3,
-            "text": "Postgres"
-        },            {
-            "id": 4,
-            "text": "Heroku"
-        }
-    ],
-        "retrospective": "When my team and I started out, we were thinking of ways to bring technology into sustainable living. I’ve been interested in the cause of protecting bees and Nicholas, our back-end developer, was getting into gardening and wanted to learn more about native plants in the Vancouver area. We combined these two ideas with an element of community because we all learned to emphasize how important community is after studying online throughout the pandemic.",
-        "project_imgs": [
+                "id": 1,
+                "text": "Axios"
+            },
             {
+                "id": 2,
+                "text": "Express"
+            },
+            {
+                "id": 3,
+                "text": "Postgres"
+            }, {
+                "id": 4,
+                "text": "Heroku"
+            }
+        ],
+        "retrospective": "When my team and I started out, we were thinking of ways to bring technology into sustainable living. I’ve been interested in the cause of protecting bees and Nicholas, our back-end developer, was getting into gardening and wanted to learn more about native plants in the Vancouver area. We combined these two ideas with an element of community because we all learned to emphasize how important community is after studying online throughout the pandemic.",
+        "project_imgs": [{
                 "id": 1,
                 "url": "https://i.imgur.com/mwpKdRc.png"
             },
@@ -55,7 +54,7 @@
             }
         ],
         "nextproj_img": "https://i.imgur.com/zRKueLk.png",
-        "nextproj_url": "/capwise",
+        "nextproj_url": "/project/capwise",
         "successes": [{
                 "id": 1,
                 "text": "Completed a full PWA from scratch within 5-weeks."
@@ -113,6 +112,51 @@
     },
 
     "capwise": {
+        "name": "CapWise",
+        "hero": "https://i.imgur.com/7aqb1AQ.jpg",
+        "roles": "Full-Stack Developer, Designer, and Project Manager",
+        "description": "CapWise introduces a crowd occupancy counter for retail spaces that will make use of counted data. Aside from counting crowd flow, CapWise offers special scheduling and marketing features to make use of in-store counting data. <br/><br/> In this project, I worked on the back and front-end of a count-tracking page, using local storage for log-in, and utilizing Firebase to make update, add, and delete calls to and from a NoSQL database. Aside from the front-end Counter page, I spent time to work on the Alerts, Settings, and User Authentication process.",
+        "url": "https://capwise-fac45.web.app/index.html",
+        "github": "https://github.com/sallyklpoon/CapWise",
+        "trello": "https://trello.com/b/YTQ9Rxxj/1800-capwise",
+        "devpost": "",
+        "miro": "",
+        "pitch_url": "https://youtu.be/s-Y8NRgPwH4",
+        "techstack_img": "https://i.imgur.com/8hSQ8Sw.png",
+        "techstack_c1": [{
+                "id": 1,
+                "text": "HTML 5"
+            },
+            {
+                "id": 2,
+                "text": "CSS 3"
+            },
+            {
+                "id": 3,
+                "text": "Javascript"
+            }
+        ],
+        "techstack_c2": [{
+                "id": 1,
+                "text": "Firestore"
+            },
+            {
+                "id": 2,
+                "text": "Firebase"
+            }
+        ],
+        "retrospective": "Given a prompt to find pandemic solutions, my peers and I sought to consider the new normal of people counting in businesses. At the start of the pandemic, businesses were asked to crowd-control their stores. In an age of information and data, my team and I felt that there's a wasted use of this tracked data. Thus, CapWise seeks to use people tracking data to help assist small to medium business owners with their business decisions. <br/><br/> As a very-first full deployed project on the web, there were many interesting challenges and a lot of growth that came out of this project.",
+        "project_imgs": [{
+                "id": 1,
+                "url": "https://i.imgur.com/r1QATcD.png"
+            },
+            {
+                "id": 2,
+                "url": "https://i.imgur.com/RqxZX80.png"
+            }
+        ],
+        "nextproj_img": "https://i.imgur.com/sBeD8LL.png",
+        "nextproj_url": "/project/namu",
         "successes": [{
                 "id": 1,
                 "text": "Prioritized MVP and leveraged our skill-level to create a simple yet good-looking design."
@@ -152,12 +196,266 @@
     },
 
     "namu": {
-
+        "name": "",
+        "hero": "",
+        "roles": "",
+        "description": "",
+        "url": "",
+        "github": "",
+        "trello": "",
+        "devpost": "",
+        "miro": "",
+        "pitch_url": "",
+        "techstack_img": "",
+        "techstack_c1": [{
+                "id": 1,
+                "text": ""
+            },
+            {
+                "id": 2,
+                "text": ""
+            },
+            {
+                "id": 3,
+                "text": ""
+            }, {
+                "id": 4,
+                "text": ""
+            }
+        ],
+        "techstack_c2": [{
+                "id": 1,
+                "text": ""
+            },
+            {
+                "id": 2,
+                "text": ""
+            },
+            {
+                "id": 3,
+                "text": ""
+            }, {
+                "id": 4,
+                "text": ""
+            }
+        ],
+        "retrospective": "",
+        "project_imgs": [{
+                "id": 1,
+                "url": ""
+            },
+            {
+                "id": 2,
+                "url": ""
+            }
+        ],
+        "nextproj_img": "",
+        "nextproj_url": "/project/namu",
+        "successes": [{
+            "id": 1,
+            "text": ""
+        }],
+        "potentials": [{
+            "id": 1,
+            "text": ""
+        }]
     },
     "boriya": {
+        "name": "",
+        "hero": "",
+        "roles": "",
+        "description": "",
+        "url": "",
+        "github": "",
+        "trello": "",
+        "devpost": "",
+        "miro": "",
+        "pitch_url": "",
+        "techstack_img": "",
+        "techstack_c1": [{
+                "id": 1,
+                "text": ""
+            },
+            {
+                "id": 2,
+                "text": ""
+            },
+            {
+                "id": 3,
+                "text": ""
+            }, {
+                "id": 4,
+                "text": ""
+            }
+        ],
+        "techstack_c2": [{
+                "id": 1,
+                "text": ""
+            },
+            {
+                "id": 2,
+                "text": ""
+            },
+            {
+                "id": 3,
+                "text": ""
+            }, {
+                "id": 4,
+                "text": ""
+            }
+        ],
+        "retrospective": "",
+        "project_imgs": [{
+                "id": 1,
+                "url": ""
+            },
+            {
+                "id": 2,
+                "url": ""
+            }
+        ],
+        "nextproj_img": "",
+        "nextproj_url": "/project/namu",
+        "successes": [{
+            "id": 1,
+            "text": ""
+        }],
+        "potentials": [{
+            "id": 1,
+            "text": ""
+        }]
 
     },
-    "ola": {
+    "ola-chat": {
+        "name": "",
+        "hero": "",
+        "roles": "",
+        "description": "",
+        "url": "",
+        "github": "",
+        "trello": "",
+        "devpost": "",
+        "miro": "",
+        "pitch_url": "",
+        "techstack_img": "",
+        "techstack_c1": [{
+                "id": 1,
+                "text": ""
+            },
+            {
+                "id": 2,
+                "text": ""
+            },
+            {
+                "id": 3,
+                "text": ""
+            }, {
+                "id": 4,
+                "text": ""
+            }
+        ],
+        "techstack_c2": [{
+                "id": 1,
+                "text": ""
+            },
+            {
+                "id": 2,
+                "text": ""
+            },
+            {
+                "id": 3,
+                "text": ""
+            }, {
+                "id": 4,
+                "text": ""
+            }
+        ],
+        "retrospective": "",
+        "project_imgs": [{
+                "id": 1,
+                "url": ""
+            },
+            {
+                "id": 2,
+                "url": ""
+            }
+        ],
+        "nextproj_img": "",
+        "nextproj_url": "/project/namu",
+        "successes": [{
+            "id": 1,
+            "text": ""
+        }],
+        "potentials": [{
+            "id": 1,
+            "text": ""
+        }]
+
+    },
+    "template999": {
+        "name": "",
+        "hero": "",
+        "roles": "",
+        "description": "",
+        "url": "",
+        "github": "",
+        "trello": "",
+        "devpost": "",
+        "miro": "",
+        "pitch_url": "",
+        "techstack_img": "",
+        "techstack_c1": [{
+                "id": 1,
+                "text": ""
+            },
+            {
+                "id": 2,
+                "text": ""
+            },
+            {
+                "id": 3,
+                "text": ""
+            }, {
+                "id": 4,
+                "text": ""
+            }
+        ],
+        "techstack_c2": [{
+                "id": 1,
+                "text": ""
+            },
+            {
+                "id": 2,
+                "text": ""
+            },
+            {
+                "id": 3,
+                "text": ""
+            }, {
+                "id": 4,
+                "text": ""
+            }
+        ],
+        "retrospective": "",
+        "project_imgs": [{
+                "id": 1,
+                "url": ""
+            },
+            {
+                "id": 2,
+                "url": ""
+            }
+        ],
+        "nextproj_img": "",
+        "nextproj_url": "/project/namu",
+        "successes": [{
+            "id": 1,
+            "text": ""
+        }],
+        "potentials": [{
+            "id": 1,
+            "text": ""
+        }]
 
     }
 
