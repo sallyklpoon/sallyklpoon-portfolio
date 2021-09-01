@@ -92,6 +92,17 @@
     
 }
 
+@media (max-width: 620px) {
+
+  .project-links-container {
+    flex-direction: column;
+  }
+
+  .project-links-container .btn-lg {
+    margin-bottom: 1rem;
+  }
+}
+
 /* @keyframes fadeIn{
     0%{
       opacity: 0;

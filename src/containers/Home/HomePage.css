@@ -32,7 +32,7 @@
     border: var(--light);
     color: var(--dark);
     font-weight: bold;
-}
+  }
 
 .btn-primary:active,
 .btn-primary:hover {

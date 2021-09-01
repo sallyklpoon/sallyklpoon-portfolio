@@ -26,6 +26,7 @@ import CapWisePage from './containers/Projects/CapWise/CapWisePage';
 import NamuPage from './containers/Projects/Namu/NamuPage';
 import BoriyaPage from './containers/Projects/Boriya/BoriyaPage';
 import OlaPage from './containers/Projects/Ola/OlaPage';
+import ProjectDetailsPage from './containers/Projects/ProjectDetailsPage';
 
 
 // ====================================
@@ -49,6 +50,7 @@ function App() {
           <Route path="/namu" component={NamuPage} />
           <Route path="/boriya" component={BoriyaPage} />
           <Route path="/ola-chat" component={OlaPage} />
+          <Route path="/test" component={ProjectDetailsPage}/>
         </Switch>
       </Router>
 

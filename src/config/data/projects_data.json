@@ -1,5 +1,33 @@
 {
     "sprout": {
+        "name": "Sprout",
+        "roles": "Full-stack Developer, Project Manager, Designer, and Product Owner",
+        "description": "Sprout is a social gardening application to promote bee-friendly and native-plant gardens across the Greater Vancouver area. Using the application, the Sprout team hoped to inspire users to connect with their community and learn more about the ecosystem around them. <br/><br/>As a Full-Stack Developer, some of my most notable contributions to the project includes the implementation of both the back and front-end of a user's sprout profiles (each individual plant's record), plant database search, plant database results, alerts, and leaderboard. Plant data collected was provided with courtesy from <a href='https://plantdatabase.kpu.ca/'>Kwantlen Polytechnic University's School of Horticulture (2015)</a>. <br/><br/>🏆 Sprout is awarded <a href='https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/'> Best Design in BCIT CST program's Projects II </a> for the term of Fall/Winter 2021 out of 51 total projects.",
+        "url": "https://limitless-brushlands-44735.herokuapp.com/",
+        "github": "",
+        "trello": "https://trello.com/b/BxvUW9V5/dtc-team-03",
+        "devpost": "",
+        "miro": "",
+        "pitch_url": "https://youtu.be/5AZUDrRrKr0",
+        "techstack_img": "https://i.imgur.com/Nd0N5oh.png",
+        "techstack_c1": [{
+                "id": 1,
+                "text": "React.js"
+            },
+            "Javascript",
+            "Cloudinary",
+            "React-Bootstrap"
+        ],
+        "techstack_c2": [
+            "Axios",
+            "Express",
+            "Postgres",
+            "Heroku"
+        ],
+        "retrospective": "When my team and I started out, we were thinking of ways to bring technology into sustainable living. I’ve been interested in the cause of protecting bees and Nicholas, our back-end developer, was getting into gardening and wanted to learn more about native plants in the Vancouver area. We combined these two ideas with an element of community because we all learned to emphasize how important community is after studying online throughout the pandemic.",
+        "summary_img": "https://i.imgur.com/mwpKdRc.png",
+        "project_img": "https://i.imgur.com/tEi65rx.png",
+        "nextproj_img": "https://i.imgur.com/zRKueLk.png",
         "successes": [{
                 "id": 1,
                 "text": "Completed a full PWA from scratch within 5-weeks."
@@ -48,47 +76,50 @@
             {
                 "id": 5,
                 "text": "CSS file clean-up, to create a consolidated, shared style sheet for page components with similar styling."
+            },
+            {
+                "id": 6,
+                "text": "Polish bugs such as encryption for password and large image size upload."
             }
         ]
     },
 
     "capwise": {
         "successes": [{
-            "id": 1,
-            "text": "Prioritized MVP and leveraged our skill-level to create a simple yet good-looking design."
-        },
-        {
-            "id": 2,
-            "text": "Implemented update, add, and remove calls to Firestore, a NoSQL database."
-        },
-        {
-            "id": 3,
-            "text": "Individually integrated a log-in/log-out and update settings process for users."
-        },
-        {
-            "id": 4,
-            "text": "Designed a completely mobile-first design."
-        },
-        {
-            "id": 5,
-            "text": "Successfully implemented my first alerts page."
-        },
-        {
-            "id": 6,
-            "text": "Managed a team of three efficiently so that we were ahead of our deliverable timeline."
-        }
-
-    ],
-        "potentials": [
+                "id": 1,
+                "text": "Prioritized MVP and leveraged our skill-level to create a simple yet good-looking design."
+            },
             {
-            "id": 1,
-            "text": "The organization of our NoSQL database can be improved, in specific, for our scheduling and marketing pages."
-        },
-        {
-            "id": 2,
-            "text": "The application can be expanded to allow one user to have access to more than one store location."
-        }
-    ]
+                "id": 2,
+                "text": "Implemented update, add, and remove calls to Firestore, a NoSQL database."
+            },
+            {
+                "id": 3,
+                "text": "Individually integrated a log-in/log-out and update settings process for users."
+            },
+            {
+                "id": 4,
+                "text": "Designed a completely mobile-first design."
+            },
+            {
+                "id": 5,
+                "text": "Successfully implemented my first alerts page."
+            },
+            {
+                "id": 6,
+                "text": "Managed a team of three efficiently so that we were ahead of our deliverable timeline."
+            }
+
+        ],
+        "potentials": [{
+                "id": 1,
+                "text": "The organization of our NoSQL database can be improved, in specific, for our scheduling and marketing pages."
+            },
+            {
+                "id": 2,
+                "text": "The application can be expanded to allow one user to have access to more than one store location."
+            }
+        ]
 
     },
 
