@@ -29,11 +29,13 @@ import data from '../../config/data/projects_data.json';
 
 const ProjectDetailsPage = () => {
 
+    let projectParam = useParams().project_name
+    const [currProject, setCurrProject] = useState(0);
 
 
     const [, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
-    let projectParam = useParams().project_name
+
     const htmlIntro = data[projectParam].description;
     const htmlRetrospective = data[projectParam].retrospective;
     
@@ -59,7 +61,7 @@ const ProjectDetailsPage = () => {
     return (
         
         <>
-            <div style={heroStyle}></div>
+            <div style={heroStyle} id="hero"></div>
             
             <div id="project-page-container">
 
@@ -106,9 +108,9 @@ const ProjectDetailsPage = () => {
                     <hr/>
                 </div>
         
-                <Link to={data[projectParam].nextproj_url}>
+                <a href={`/project/${data[projectParam].nextproj}/#hero`}>
                     <img src={data[projectParam].nextproj_img} alt="next-project" className="full-img next-project"></img>
-                </Link>
+                </a>
 
                 <div id="project-page-btm_block"></div>
             </div>

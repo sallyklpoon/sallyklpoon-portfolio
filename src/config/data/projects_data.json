@@ -55,7 +55,7 @@
             }
         ],
         "nextproj_img": "https://i.imgur.com/zRKueLk.png",
-        "nextproj_url": "/project/capwise",
+        "nextproj": "capwise",
         "successes": [{
                 "id": 1,
                 "text": "Completed a full PWA from scratch within 5-weeks."
@@ -156,7 +156,7 @@
             }
         ],
         "nextproj_img": "https://i.imgur.com/sBeD8LL.png",
-        "nextproj_url": "/project/namu",
+        "nextproj": "namu",
         "successes": [{
                 "id": 1,
                 "text": "Prioritized MVP and leveraged our skill-level to create a simple yet good-looking design."
@@ -236,7 +236,7 @@
             }
         ],
         "nextproj_img": "https://i.imgur.com/XizKRiT.png",
-        "nextproj_url": "/project/boriya",
+        "nextproj": "boriya",
         "successes": [{
                 "id": 1,
                 "text": "Without prior knowledge, our team learned and implemented a game using PyGame in 24-hours."
@@ -292,7 +292,7 @@
             }
         ],
         "nextproj_img": "https://i.imgur.com/dIfR53V.png",
-        "nextproj_url": "/project/ola-chat",
+        "nextproj": "ola-chat",
         "successes": [{
                 "id": 1,
                 "text": "Writing 158 unit tests independently using patches."
@@ -355,7 +355,7 @@
             }
         ],
         "nextproj_img": "https://i.imgur.com/0akdhD8.png",
-        "nextproj_url": "/project/sprout",
+        "nextproj": "sprout",
         "successes": [{
                 "id": 1,
                 "text": "First foray in coding full pages using HTML/CSS and Javascript."
@@ -443,7 +443,7 @@
             }
         ],
         "nextproj_img": "",
-        "nextproj_url": "/project/sprout",
+        "nextproj": "",
         "successes": [{
             "id": 1,
             "text": ""
