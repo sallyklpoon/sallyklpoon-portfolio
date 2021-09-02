@@ -117,9 +117,9 @@ const HomePage = () => {
                     </h1>
 
                     <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350" >
-                        <Link to="/project/sprout"><div id="sprout-img" className="proj-img" 
+                        <a href="/project/sprout" target="_blank"><div id="sprout-img" className="proj-img" 
                         style={{transform: `scale(${offsetY * 0.00045})`}}
-                        /></Link>
+                        /></a>
                     </div>
                 
                 </div>
@@ -127,15 +127,15 @@ const HomePage = () => {
                 <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
                     style={{transform: `translateY(${offsetY * 0.02}px)`}}>
                     <p className="proj-descrip" >
-                        <a href="/project/sprout" className="left"><strong>Sprout</strong></a> is a five-week Agile Development Project by 4 first-year CST 
+                        <a href="/project/sprout" className="left" target="_blank"><strong>Sprout</strong></a> is a five-week Agile Development Project by 4 first-year CST 
                         students at BCIT built to encourage nurturing our knowledge of sustainable 
                         gardening within a friendly community. <br/><br/>
 
-                        <a href="https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/">
+                        <a href="https://commons.bcit.ca/news/2021/06/creating-a-sustainability-app-so-much-more-than-writing-code/" target="_blank">
                             <strong>🏆 BCIT Projects II Winner | Best Application Design</strong></a>
                     </p>
 
-                    <Button variant="outline-dark" size="lg" href="/project/sprout">View Project</Button>
+                    <Button variant="outline-dark" size="lg" href="/project/sprout" target="_blank">View Project</Button>
                 </div>
 
             </div>
@@ -151,8 +151,8 @@ const HomePage = () => {
                     </h1>
 
                     <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
-                        <Link to="/project/capwise"><div id="capwise-img" className="proj-img" 
-                        style={{transform: `scale(${offsetY * 0.0004})`}} /></Link>
+                        <a href="/project/capwise" target="_blank"><div id="capwise-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.0004})`}} /></a>
                     </div>
 
                 </div>
@@ -160,11 +160,11 @@ const HomePage = () => {
                 <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
                     style={{transform: `translateY(${offsetY * 0.02}px)`}}>
                     <p className="proj-descrip" >
-                        <a href="/project/capwise" className="left"><strong>CapWise</strong></a> offers occupancy 
+                        <a href="/project/capwise" className="left" target="_blank"><strong>CapWise</strong></a> offers occupancy 
                         tracking while making use of the tracking data to offer business insights in marketing and scheduling.
                     </p>
 
-                    <Button variant="outline-dark" size="lg" href="/project/capwise">View Project</Button>
+                    <Button variant="outline-dark" size="lg" href="/project/capwise" target="_blank">View Project</Button>
                 </div>
 
             </div>
@@ -180,8 +180,8 @@ const HomePage = () => {
                     </h1>
 
                     <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
-                        <Link to="/project/namu"><div id="namu-img" className="proj-img" 
-                        style={{transform: `scale(${offsetY * 0.00028})`}} /></Link>
+                        <a href="/project/namu" target="_blank"><div id="namu-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.00028})`}} /></a>
                     </div>
 
                 </div>
@@ -189,16 +189,16 @@ const HomePage = () => {
                 <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
                     style={{transform: `translateY(${offsetY * 0.02}px)`}}>
                     <p className="proj-descrip" >
-                        <a href="/project/namu" className="left"><strong>Namu</strong></a> takes players on a journey with 
+                        <a href="/project/namu" className="left" target="_blank"><strong>Namu</strong></a> takes players on a journey with 
                         our blue whale friend who is searching for their home. During the journey, players will 
                         learn about environmental issues that affect our oceans.  
 
                         <br/><br/>
 
-                        <a href="https://devpost.com/software/namu"><strong>🏆 Hack the Break Winner | Best Project Pitch</strong></a>
+                        <a href="https://devpost.com/software/namu" target="_blank"><strong>🏆 Hack the Break Winner | Best Project Pitch</strong></a>
                     </p>
 
-                    <Button variant="outline-dark" size="lg" href="/project/namu">View Project</Button>
+                    <Button variant="outline-dark" size="lg" href="/project/namu" target="_blank">View Project</Button>
                 </div>
 
             </div>
@@ -214,8 +214,8 @@ const HomePage = () => {
                     </h1>
 
                     <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
-                        <Link to="/project/boriya"><div id="boriya-img" className="proj-img" 
-                        style={{transform: `scale(${offsetY * 0.0003})`}} /></Link>
+                        <a href="/project/boriya" target="_blank"><div id="boriya-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.0003})`}} /></a>
                     </div>
 
                 </div>
@@ -223,11 +223,11 @@ const HomePage = () => {
                 <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
                     style={{transform: `translateY(${offsetY * 0.02}px)`}}>
                     <p className="proj-descrip" >
-                        A dark blight surrounds the Forest of <a href="/project/boriya" className="left"><strong>Bóriya</strong></a>. 
+                        A dark blight surrounds the Forest of <a href="/project/boriya" className="left" target="_blank"><strong>Bóriya</strong></a>. 
                         Will you be able restore peace in the land? A text-based adventure built with Python 3.  
                     </p>
 
-                    <Button variant="outline-dark" size="lg" href="/project/boriya">View Project</Button>
+                    <Button variant="outline-dark" size="lg" href="/project/boriya" target="_blank">View Project</Button>
                 </div>
 
             </div>
@@ -243,8 +243,8 @@ const HomePage = () => {
                     </h1>
 
                     <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350">
-                        <Link to="/project/ola-chat"><div id="ola-img" className="proj-img" 
-                        style={{transform: `scale(${offsetY * 0.00035})`}} /></Link>
+                        <a href="/project/ola-chat" target="_blank"><div id="ola-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.00035})`}} /></a>
                     </div>
 
                 </div>
@@ -252,11 +252,11 @@ const HomePage = () => {
                 <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
                     style={{transform: `translateY(${offsetY * 0.01}px)`}}>
                     <p className="proj-descrip" >
-                        <a href="/project/ola-chat" className="left"><strong>Olà Chat</strong></a> is a front-end interface providing 
+                        <a href="/project/ola-chat" className="left" target="_blank"><strong>Olà Chat</strong></a> is a front-end interface providing 
                         an anonymous space for participants to reach out to listeners who they are best able to share their experiences with.  
                     </p>
 
-                    <Button variant="outline-dark" size="lg" href="/project/ola-chat">View Project</Button>
+                    <Button variant="outline-dark" size="lg" href="/project/ola-chat" target="_blank">View Project</Button>
                 </div>
 
             </div>
@@ -275,15 +275,13 @@ const HomePage = () => {
             <div id="connect-links-container" className="two-column"
                 data-aos="fade-down" data-aos-duration="3000">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/sally-poon-30719b120/">
+                    <li><a href="https://www.linkedin.com/in/sally-poon-30719b120/" target="_blank">
                         <img src={linkedin} alt=""/><span className="connect-link">LinkedIn</span></a></li>
-                    <li><a href="mailto:sallyklpoon@gmail.com">
+                    <li><a href="mailto:sallyklpoon@gmail.com" target="_blank">
                         <img src={mail} alt=""/><span className="connect-link">Email</span></a></li>
-                    <li><a href="https://www.instagram.com/sallyteaspoon/">
-                        <img src={instagram} alt=""/><span className="connect-link">Instagram</span></a></li>
                 </ul>
                 <ul>
-                    <li><a href="https://github.com/sallyklpoon">
+                    <li><a href="https://github.com/sallyklpoon" target="_blank">
                         <img src={github} alt=""/><span className="connect-link">Github</span></a></li>
                     <li><a href={resume} download>
                         <img src={file} alt=""/><span className="connect-link">Resume</span></a></li>
