@@ -344,7 +344,7 @@
             }
         ],
         "techstack_c2": [],
-        "retrospective": "This project was my first hackathon with a bunch of new coders who, including myself, have only been coding for 1 month. The project came from a place of shared advocacy for mental health and from my experience being a Crisis Line volunteer. For this project experience, I learned a lot about front-end UI/UX programming using the little tools and knowledge I've picked up and about consolidating CSS stylsheets for shared components across pages.<br/><br/>Our team had a lot of ideas for this project, but only so much time to complete it. A lot of these features that we would have loved to include are in the Project Potential tab below. In some ways, this was also the first time I had to consider prioritizing and limiting the scope of a project.",
+        "retrospective": "This project was my first hackathon with a bunch of new coders who, including myself, had only been coding for 1 month. The project came from a place of shared advocacy for mental health and from my experience being a Crisis Line volunteer. For this project experience, I learned a lot about front-end UI/UX programming using the little tools and knowledge I've picked up and about consolidating CSS stylsheets for shared components across pages.<br/><br/>Our team had a lot of ideas for this project, but only so much time to complete it. A lot of these features that we would have loved to include are in the Project Potential tab below. In some ways, this was also the first time I had to consider prioritizing and limiting the scope of a project.",
         "project_imgs": [{
                 "id": 1,
                 "url": "https://i.imgur.com/vc1D2KK.png"
