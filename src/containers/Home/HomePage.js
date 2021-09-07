@@ -74,16 +74,17 @@ const HomePage = () => {
                 <div id="about-text" style={{transform: `translateY(${offsetY * 0.07}px)`}}>
                     <h1  id="about-me-header" className="display-4" 
                     data-aos="fade-down" data-aos-duration="1000">Hi, I'm Sally!👋🏻 <br/> 
-                    <img src={identity} alt="" id="id-gif"/> <br/> in Vancouver with a background in design and Psychological research. <br/> <br/>
+                    <img src={identity} alt="" id="id-gif"/> <br/> in Vancouver with a background in Psychological research. <br/> <br/>
                     I am currently a co-op student in the Computer Systems Technology program at BCIT.</h1>
 
                     <div id="about-bullets" 
                         data-aos="fade-down" data-aos-duration="1000">
                         <ul>
-                            <li>Skills in: Python, Javascript, SQL, React.js, Firebase, and more</li>
-                            <li>Led and worked in team settings as a <strong>Full-stack Developer</strong> and <strong>Project Manager</strong></li>
+                            <li>Skills in: Python, Javascript, SQL, React JS, Firebase, and more</li>
+                            <li>Skills in-progress: Procedural Programming in C and Object Oriented Programming in Java</li>
+                            <li>Led and worked in team settings as a <strong>Full-stack Developer</strong>, <strong>Test Developer</strong>, and <strong>Project Manager</strong></li>
                             <li>Ability to adapt and succeed under steep learning curves</li>
-                            <li>Self-taught <strong>Adobe Photoshop, After Effects, Illustrator, and InDesign</strong> as a creative outlet</li>
+                            <li>Self-taught <strong>Adobe Photoshop, After Effects, Illustrator, and InDesign</strong></li>
                             <li>🏆 Awards: McMath Pride Award, Cultural Leadership Award - Richmond Arts Awards</li>
                         </ul>
 
