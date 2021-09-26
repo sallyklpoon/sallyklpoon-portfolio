@@ -155,8 +155,8 @@
                 "url": "https://i.imgur.com/RqxZX80.png"
             }
         ],
-        "nextproj_img": "https://i.imgur.com/sBeD8LL.png",
-        "nextproj": "namu",
+        "nextproj_img": "https://i.imgur.com/RV8XwoV.png",
+        "nextproj": "cats-in-space",
         "successes": [{
                 "id": 1,
                 "text": "Prioritized MVP and leveraged our skill-level to create a simple yet good-looking design."
@@ -190,6 +190,72 @@
             {
                 "id": 2,
                 "text": "The application can be expanded to allow one user to have access to more than one store location."
+            }
+        ]
+
+    },
+    "cats-in-space": {
+        "name": "Cats in Space",
+        "hero": "https://i.imgur.com/hlJliy0.jpg",
+        "roles": "Game Developer",
+        "description": "Cats in Space is a 2D Tower Defense game built. Having no experience with Unity or C#, this project was built out of a challenge for myself and my team (Oscar La, Raymond Wong, and Nolan Nordwall).<br/><br/>For this game, I contributed in the game development process through enemy methods for movement and dying process. In addition to that, I assisted in asset building such as the scrolling space background and wrapping our map with assets.",
+        "url": "https://play.unity.com/mg/other/cats-in-space",
+        "github": "",
+        "trello": "",
+        "devpost": "https://devpost.com/software/cosmic-fortress?ref_content=user-portfolio&ref_feature=in_progress",
+        "flowchart": "",
+        "pitch_url": "",
+        "techstack_img": "https://i.imgur.com/Ym5mnyv.png",
+        "techstack_c1": [{
+                "id": 1,
+                "text": "Unity Game Engine"
+            },
+            {
+                "id": 2,
+                "text": "C#"
+            }
+        ],
+        "techstack_c2": [],
+        "retrospective": "As with any learning process, there were a lot of unknowns for our team when we dove into Unity. The first hiccup we ran into right off the bat was figuring out how to use Git with Unity! We ended up settling with trying out Unity's Collaboration feature, which helped us easily Publish and see each other's changes. In addition to this particular detail, we also ran into challenges debugging our code, solving the mysteries of the disappearing Sprites, and constructing a map. Although a lot of this took time, we made sure to push through and simply had the goal to wrap up a minimal, finished game.<br/><br/>Overall, We learned that sometimes, hackathons can be a chance to not only challenge yourself to take home prizes, but just to learn. It can be a great chance for you and your friends to dial back and enjoy the learning process together.",
+        "project_imgs": [{
+                "id": 1,
+                "url": "https://i.imgur.com/aLvbYDa.gif"
+            },
+            {
+                "id": 2,
+                "url": "https://i.imgur.com/KqGK707.gif"
+            }
+        ],
+        "nextproj_img": "https://i.imgur.com/sBeD8LL.png",
+        "nextproj": "namu",
+        "successes": [{
+                "id": 1,
+                "text": "Collaboration within a group of strangers!"
+            },
+            {
+                "id": 2,
+                "text": "Completed the foundation of a 2D Tower Defense Game that can be polished for full game implementation."
+            }
+        ],
+        "potentials": [{
+                "id": 1,
+                "text": "The Catmmando to Enemy gameplay can be tweaked more subtly."
+            },
+            {
+                "id": 2,
+                "text": "Increased Catmmando variety can add more interest to the game and more dynamic play."
+            },
+            {
+                "id": 3,
+                "text": "A more customized build with an improved UI is vital to a more polished look and feel."
+            },
+            {
+                "id": 4,
+                "text": "Build a more complex map to include areas that players cannot station Catmmandos."
+            },
+            {
+                "id": 5,
+                "text": "Adjust the shooting range of our Catmmandos (decrease)."
             }
         ]
 
@@ -294,28 +360,28 @@
         "nextproj_img": "https://i.imgur.com/dIfR53V.png",
         "nextproj": "ola-chat",
         "successes": [{
-                "id": 1,
-                "text": "Writing 158 unit tests independently using patches."
-            }, {
-                "id": 2,
-                "text": "In my humble opinion, many beauitfully atomic functions were written in this program that I am proud of. 💣"
-            }, {
-                "id": 3,
-                "text": "Thorough planning through the use of a flowchart to plan all function logic."
-            }, {
-                "id": 4,
-                "text": "Fun inclusion of ASCII art, colour-coding, and combat statistics. We could have made a simpler game, but we didn't."
-            }],
+            "id": 1,
+            "text": "Writing 158 unit tests independently using patches."
+        }, {
+            "id": 2,
+            "text": "In my humble opinion, many beauitfully atomic functions were written in this program that I am proud of. 💣"
+        }, {
+            "id": 3,
+            "text": "Thorough planning through the use of a flowchart to plan all function logic."
+        }, {
+            "id": 4,
+            "text": "Fun inclusion of ASCII art, colour-coding, and combat statistics. We could have made a simpler game, but we didn't."
+        }],
         "potentials": [{
-                "id": 1,
-                "text": "We can easily expand on the perks of levelling up in this game and create a more expansive world."
-            }, {
-                "id": 2,
-                "text": "My original plan was to also include a randomizer for objects that a player will encounter if they do not encounter an enemy. They would be able to engage with the object."
-            }, {
-                "id": 3,
-                "text": "Towns, NPCs, and exchange of currency & goods can be added to the game for a more immersive experience."
-            }]
+            "id": 1,
+            "text": "We can easily expand on the perks of levelling up in this game and create a more expansive world."
+        }, {
+            "id": 2,
+            "text": "My original plan was to also include a randomizer for objects that a player will encounter if they do not encounter an enemy. They would be able to engage with the object."
+        }, {
+            "id": 3,
+            "text": "Towns, NPCs, and exchange of currency & goods can be added to the game for a more immersive experience."
+        }]
 
     },
     "ola-chat": {
@@ -357,35 +423,34 @@
         "nextproj_img": "https://i.imgur.com/0akdhD8.png",
         "nextproj": "sprout",
         "successes": [{
-                "id": 1,
-                "text": "First foray in coding full pages using HTML/CSS and Javascript."
-            },{
-                "id": 2,
-                "text": "By shadowing a project peer who is in UI/UX, I learned about how to create shared components across HTML pages."
-            },{
-                "id": 3,
-                "text": "Working under a time constraint for the very first time in a hackathon was challenging, but my take away from it was how to pare down a project scope to complete a project."
-            }],
+            "id": 1,
+            "text": "First foray in coding full pages using HTML/CSS and Javascript."
+        }, {
+            "id": 2,
+            "text": "By shadowing a project peer who is in UI/UX, I learned about how to create shared components across HTML pages."
+        }, {
+            "id": 3,
+            "text": "Working under a time constraint for the very first time in a hackathon was challenging, but my take away from it was how to pare down a project scope to complete a project."
+        }],
         "potentials": [{
-                "id": 1,
-                "text": "The first thing I would change, of course, is to actually implement a database behind the project, likely with a Relational Database."
-            },{
-                "id": 2,
-                "text": "We would like to add tags for listeners to identify themselves in different topic categories."
-            },{
-                "id": 3,
-                "text": "Implementation of forums and after-chat support links."
-            },{
-                "id": 4,
-                "text":"Providing a Crisis flag for Sharers to flag when someone may need more serious support."
-            },{
-                "id": 5,
-                "text": "Security measures to protect users, a way to report inapporpriate users of the application."
-            },{
-                "id": 6,
-                "text": "A log-in process for Listeners."
-            }
-        ]
+            "id": 1,
+            "text": "The first thing I would change, of course, is to actually implement a database behind the project, likely with a Relational Database."
+        }, {
+            "id": 2,
+            "text": "We would like to add tags for listeners to identify themselves in different topic categories."
+        }, {
+            "id": 3,
+            "text": "Implementation of forums and after-chat support links."
+        }, {
+            "id": 4,
+            "text": "Providing a Crisis flag for Sharers to flag when someone may need more serious support."
+        }, {
+            "id": 5,
+            "text": "Security measures to protect users, a way to report inapporpriate users of the application."
+        }, {
+            "id": 6,
+            "text": "A log-in process for Listeners."
+        }]
 
     },
     "template999": {

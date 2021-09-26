@@ -89,7 +89,7 @@ const HomePage = () => {
                         </ul>
 
                         <Button variant="primary" id="view-resume-btn"
-                        size="lg" href={resume} download>View Resume</Button>
+                        size="lg" href="https://drive.google.com/file/d/1sF4WO2aFkt4sv4ubekHpsndJRUCgv7CI/view?usp=sharing" target="_blank">View Resume</Button>
 
                     </div>
 
@@ -170,6 +170,35 @@ const HomePage = () => {
 
             </div>
 
+            <div className="proj"  id="cats-in-space">
+
+                <div className="proj-intro-container" >
+                    <h1 className="display-4 proj-head accented-text" 
+                        data-aos="fade-right" data-aos-duration="1800"
+                        style={{transform: `translateX(${offsetY * 0.07}px)`}}>
+                        2D Tower Defense Game in Unity and C#
+                    </h1>
+
+                    <div className="proj-img-parent" data-aos="fade-right" data-aos-duration="2350" >
+                        <a href="/project/sprout" target="_blank"><div id="cats-in-space-img" className="proj-img" 
+                        style={{transform: `scale(${offsetY * 0.00035})`}}
+                        /></a>
+                    </div>
+                
+                </div>
+
+                <div className="proj-para" data-aos="fade-down" data-aos-duration="1000"
+                    style={{transform: `translateY(${offsetY * 0.02}px)`}}>
+                    <p className="proj-descrip" >
+                        <a href="/project/cats-in-space" className="left" target="_blank"><strong>Cats In Space</strong></a> is a Hack the North 2021 hackathon project. Try out this game built using a Unity game engine! <br/><br/>
+
+                    </p>
+
+                    <Button variant="outline-dark" size="lg" href="/project/cats-in-space" target="_blank">View Project</Button>
+                </div>
+
+            </div>
+            
             <div className="proj" id="namu">
 
                 <div className="proj-intro-container" >
@@ -284,7 +313,7 @@ const HomePage = () => {
                 <ul>
                     <li><a href="https://github.com/sallyklpoon" target="_blank">
                         <img src={github} alt=""/><span className="connect-link">Github</span></a></li>
-                    <li><a href={resume} download>
+                    <li><a href="https://drive.google.com/file/d/1sF4WO2aFkt4sv4ubekHpsndJRUCgv7CI/view?usp=sharing" target="_blank">
                         <img src={file} alt=""/><span className="connect-link">Resume</span></a></li>
                 </ul>
             </div>
