@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 // AOS
 import AOS from 'aos';
@@ -17,8 +16,6 @@ import linkedin from '../../config/assets/icons/linkedin.svg';
 import mail from '../../config/assets/icons/mail.svg';
 import github from '../../config/assets/icons/github.svg';
 import file from '../../config/assets/icons/file.svg';
-import resume from '../../config/files/sallyklpoon_resume.pdf';
-import instagram from '../../config/assets/icons/instagram.svg';
 import identity from '../../config/assets/images/type(8)_blue.gif';
 import projects_head from '../../config/assets/images/h-projects.png';
 import connect_head from '../../config/assets/images/h-connect.png';
